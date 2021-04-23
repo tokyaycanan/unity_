@@ -31,17 +31,18 @@ public class GirisPanel : MonoBehaviour
         {
             //veritabanı
 
-
-            StartCoroutine(girisYap());
+             StartCoroutine(girisYap());
         }
     }
 
-    IEnumerator girisYap()
+     IEnumerator girisYap()
     {
         WWWForm form = new WWWForm();
         form.AddField("unity", "girisYapma");
         form.AddField("kullaniciAdi", kullaniciAdi.text); //selim
         form.AddField("sifre", sifre.text);
+
+
 
         using (UnityWebRequest www = UnityWebRequest.Post("http://localhost/unity_DB/userRegister.php", form))
         {

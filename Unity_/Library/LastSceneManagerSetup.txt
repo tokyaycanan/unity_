@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/giris.unity
+- path: Assets/Scenes/oyun.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
