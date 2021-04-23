@@ -8,11 +8,12 @@ using System;
 public class oyun : MonoBehaviour
 {
     public GameObject ground;
+  
     public InputField gen;
     public InputField en;
     Vector3 scale;
 
-        public void x()
+    public void x()
     {
         float b = float.Parse(en.text);
         float a = float.Parse(gen.text);
@@ -30,7 +31,5 @@ public class oyun : MonoBehaviour
         Instantiate(ground, transform.position, transform.rotation);
 
     }
-
-    // Update is called once per frame
 
 }
