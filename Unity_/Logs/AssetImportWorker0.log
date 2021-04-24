@@ -1,146 +1,1130 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.4f1 (becced5a802b) revision 12504301'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home Single Language; OS build 19042.928; Version 2009; 64bit' Language: 'tr' Physical Memory: 16273 MB
+OS: 'Windows 10 Home Single Language; OS build 19041.928; Version 2004; 64bit' Language: 'en' Physical Memory: 8079 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/canan/Documents/GitHub/unity_/Unity_
+C:/Users/hilal/Documents/GitHub/unity_/Unity_
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53695
-Successfully changed project path to: C:/Users/canan/Documents/GitHub/unity_/Unity_
-C:/Users/canan/Documents/GitHub/unity_/Unity_
+58277
+Successfully changed project path to: C:/Users/hilal/Documents/GitHub/unity_/Unity_
+C:/Users/hilal/Documents/GitHub/unity_/Unity_
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 44.71 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 34.98 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.4f1 (becced5a802b)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/canan/Documents/GitHub/unity_/Unity_/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/hilal/Documents/GitHub/unity_/Unity_/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Renderer: NVIDIA GeForce MX150 (ID=0x1d10)
     Vendor:   
-    VRAM:     4019 MB
-    Driver:   27.21.14.6140
+    VRAM:     1994 MB
+    Driver:   23.21.13.8816
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56308
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003182 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003202 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 55.85 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 40.15 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.952 seconds
+- Completed reload, in  1.660 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001397 seconds.
+Registered in 0.000955 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.729 seconds
+- Completed reload, in  1.618 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1304 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.3 MB.
-System memory in use after: 65.4 MB.
+System memory in use before: 65.4 MB.
+System memory in use after: 65.5 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1749.
-Total: 2.226600 ms (FindLiveObjects: 0.341800 ms CreateObjectMapping: 0.147200 ms MarkObjects: 1.659500 ms  DeleteObjects: 0.076500 ms)
+Total: 2.597000 ms (FindLiveObjects: 0.686600 ms CreateObjectMapping: 0.118000 ms MarkObjects: 1.703500 ms  DeleteObjects: 0.086800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Toon Furniture/Prefabs/BookCase_2.prefab
-  artifactKey: Guid(08a5f3a4f1a5afa47b54e6eddc350ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Furniture/Prefabs/BookCase_2.prefab using Guid(08a5f3a4f1a5afa47b54e6eddc350ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312a40315f77a19f3141065231eadee5') in 0.204524 seconds
-  Import took 0.207973 seconds .
+  path: Assets/kod/cams.cs
+  artifactKey: Guid(736883418e5d583459da8e43eedab806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kod/cams.cs using Guid(736883418e5d583459da8e43eedab806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064857bdfcf9c3dc8fddcaf74d7d6961') in 0.071820 seconds
+  Import took 0.076659 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.295816 seconds.
-  path: Assets/Toon Furniture/Prefabs/BookCase_2.prefab
-  artifactKey: Guid(08a5f3a4f1a5afa47b54e6eddc350ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Furniture/Prefabs/BookCase_2.prefab using Guid(08a5f3a4f1a5afa47b54e6eddc350ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb16a608b7dd1bf22393654853d548ba') in 0.016352 seconds
-  Import took 0.019832 seconds .
+  Time since last request: 686.129777 seconds.
+  path: Assets/kod/cams.cs
+  artifactKey: Guid(736883418e5d583459da8e43eedab806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kod/cams.cs using Guid(736883418e5d583459da8e43eedab806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949a37227176d2944c5b6565ddb4e646') in 0.016217 seconds
+  Import took 0.026937 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.400391 seconds.
-  path: Assets/Toon Furniture/Prefabs/BookCase_2.prefab
-  artifactKey: Guid(08a5f3a4f1a5afa47b54e6eddc350ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Furniture/Prefabs/BookCase_2.prefab using Guid(08a5f3a4f1a5afa47b54e6eddc350ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e077259ac6878fff69c8a42d7c03153') in 0.011416 seconds
-  Import took 0.014503 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.461619 seconds.
-  path: Assets/Toon Furniture/Prefabs/BookCase_2.prefab
-  artifactKey: Guid(08a5f3a4f1a5afa47b54e6eddc350ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Furniture/Prefabs/BookCase_2.prefab using Guid(08a5f3a4f1a5afa47b54e6eddc350ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d5163f2371c0c01501472dd6c04749') in 0.011734 seconds
-  Import took 0.014443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.454209 seconds.
-  path: Assets/Toon Furniture/Prefabs/BookCase_2.prefab
-  artifactKey: Guid(08a5f3a4f1a5afa47b54e6eddc350ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Furniture/Prefabs/BookCase_2.prefab using Guid(08a5f3a4f1a5afa47b54e6eddc350ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde73ed88e74864da26dc2b44f16d67e') in 0.012180 seconds
-  Import took 0.015363 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 63.048354 seconds.
-  path: Assets/Toon Furniture/Prefabs/BookCase_2.prefab
-  artifactKey: Guid(08a5f3a4f1a5afa47b54e6eddc350ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon Furniture/Prefabs/BookCase_2.prefab using Guid(08a5f3a4f1a5afa47b54e6eddc350ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac3bbaf3163af5f9bb39edd347286ad') in 0.012084 seconds
-  Import took 0.016444 seconds .
+  Time since last request: 106.783268 seconds.
+  path: Assets/kod/cams.cs
+  artifactKey: Guid(736883418e5d583459da8e43eedab806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kod/cams.cs using Guid(736883418e5d583459da8e43eedab806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1d6e1f31b0105f4e752acaced687f6') in 0.009256 seconds
+  Import took 0.013264 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001558 seconds.
+Registered in 0.000791 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.004 seconds
+- Completed reload, in  1.084 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1286 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.4 MB.
+System memory in use after: 64.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1752.
+Total: 1.991200 ms (FindLiveObjects: 0.298000 ms CreateObjectMapping: 0.048600 ms MarkObjects: 1.583800 ms  DeleteObjects: 0.059300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000886 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.965 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1285 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.4 MB.
+System memory in use after: 64.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1754.
+Total: 1.650500 ms (FindLiveObjects: 0.161800 ms CreateObjectMapping: 0.048900 ms MarkObjects: 1.422700 ms  DeleteObjects: 0.016000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 359.508672 seconds.
+  path: Assets/Toon Furniture/Prefabs/Ball_1.prefab
+  artifactKey: Guid(4945551f5e101604ab8cd71442e62a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Ball_1.prefab using Guid(4945551f5e101604ab8cd71442e62a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7852637839648ff58ff6d781a0d62db9') in 0.194437 seconds
+  Import took 0.198347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Toon Furniture/Prefabs/Books_1_1.prefab
+  artifactKey: Guid(dd63c090f4a9ca84a90829fa533a1889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Books_1_1.prefab using Guid(dd63c090f4a9ca84a90829fa533a1889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cba375ec83182e8676c770245aff823') in 0.037892 seconds
+  Import took 0.156077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Toon Furniture/Prefabs/Chair_5.prefab
+  artifactKey: Guid(094b1ce88c26fa145ae8b34a1712b67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Chair_5.prefab using Guid(094b1ce88c26fa145ae8b34a1712b67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce6cb0d07216f5d23692ff4f411b79e') in 0.038437 seconds
+  Import took 0.041606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Toon Furniture/Prefabs/Ball_1.prefab
+  artifactKey: Guid(4945551f5e101604ab8cd71442e62a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Ball_1.prefab using Guid(4945551f5e101604ab8cd71442e62a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7852637839648ff58ff6d781a0d62db9') in 0.026109 seconds
+  Import took 0.030844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Toon Furniture/Prefabs/Chair_4.prefab
+  artifactKey: Guid(f4361284dc70ab044b5b3d136b00d8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Chair_4.prefab using Guid(f4361284dc70ab044b5b3d136b00d8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdbee94e367888322864fdd26f271be0') in 0.039369 seconds
+  Import took 0.042576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Toon Furniture/Prefabs/Books_1_4.prefab
+  artifactKey: Guid(569b91127553a1041a6d6aa2e81bf80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Books_1_4.prefab using Guid(569b91127553a1041a6d6aa2e81bf80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4b9c46c653410f17a23cb133708cb8') in 0.033561 seconds
+  Import took 0.036391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Toon Furniture/Prefabs/Chair_3.prefab
+  artifactKey: Guid(2bed2b2c0943e36459952282ba5f7292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Chair_3.prefab using Guid(2bed2b2c0943e36459952282ba5f7292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a147dd387313f8afe27289eedbc73da5') in 0.034024 seconds
+  Import took 0.039205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Toon Furniture/Prefabs/Books_1_2.prefab
+  artifactKey: Guid(4824839bd071a8147b3efd7538332d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Books_1_2.prefab using Guid(4824839bd071a8147b3efd7538332d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73148a5c2b1200a5397e5a17b45e27cc') in 0.036452 seconds
+  Import took 0.040136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Toon Furniture/Prefabs/BookCase_1.prefab
+  artifactKey: Guid(2e56118484113a44faa3c8e83481b418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/BookCase_1.prefab using Guid(2e56118484113a44faa3c8e83481b418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c102ce765c461c7af54ddd31806c4d6') in 0.038290 seconds
+  Import took 0.041196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Toon Furniture/Prefabs/Chair_1.prefab
+  artifactKey: Guid(6f2b08c1ec2e79f4688cdc292da8ff85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Chair_1.prefab using Guid(6f2b08c1ec2e79f4688cdc292da8ff85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095d5e125fe1f614d698dea0e919ebc2') in 0.036866 seconds
+  Import took 0.040285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Toon Furniture/Prefabs/BookCase_1.prefab
+  artifactKey: Guid(2e56118484113a44faa3c8e83481b418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/BookCase_1.prefab using Guid(2e56118484113a44faa3c8e83481b418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c102ce765c461c7af54ddd31806c4d6') in 0.032560 seconds
+  Import took 0.036649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Toon Furniture/Prefabs/BookCase_2.prefab
+  artifactKey: Guid(08a5f3a4f1a5afa47b54e6eddc350ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/BookCase_2.prefab using Guid(08a5f3a4f1a5afa47b54e6eddc350ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f15d79726a49c9832706d772076a85') in 0.035289 seconds
+  Import took 0.041223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Toon Furniture/Prefabs/Books_1_3.prefab
+  artifactKey: Guid(1d01d3e47aa094e46a9b21e9bfe34386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Books_1_3.prefab using Guid(1d01d3e47aa094e46a9b21e9bfe34386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae5a24425be2dc3ddfd1a65c9a94de2') in 0.032386 seconds
+  Import took 0.036811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Toon Furniture/Prefabs/Chair_2.prefab
+  artifactKey: Guid(362911fc952a76e47a19b4e21bc4b183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Chair_2.prefab using Guid(362911fc952a76e47a19b4e21bc4b183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1327cc6b1e7ec90e4fdfd8641cd59e22') in 0.033703 seconds
+  Import took 0.036940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Toon Furniture/Prefabs/Books_1_3.prefab
+  artifactKey: Guid(1d01d3e47aa094e46a9b21e9bfe34386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Books_1_3.prefab using Guid(1d01d3e47aa094e46a9b21e9bfe34386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae5a24425be2dc3ddfd1a65c9a94de2') in 0.021544 seconds
+  Import took 0.025747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Toon Furniture/Prefabs/Chair_6.prefab
+  artifactKey: Guid(90421e262216bf6428b4337235113ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Chair_6.prefab using Guid(90421e262216bf6428b4337235113ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0005a4c1d2cbf3249545f53cbeeae8da') in 0.020996 seconds
+  Import took 0.023814 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000834 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.959 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1285 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1763.
+Total: 1.806100 ms (FindLiveObjects: 0.152100 ms CreateObjectMapping: 0.048400 ms MarkObjects: 1.588500 ms  DeleteObjects: 0.015800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.603014 seconds.
+  path: Assets/Toon Furniture/Prefabs/BookCase_2.prefab
+  artifactKey: Guid(08a5f3a4f1a5afa47b54e6eddc350ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/BookCase_2.prefab using Guid(08a5f3a4f1a5afa47b54e6eddc350ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c76b33ee672cb2a59df6a14967795c0') in 0.070562 seconds
+  Import took 0.073339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.225572 seconds.
+  path: Assets/Toon Furniture/Prefabs/BookCase_2.prefab
+  artifactKey: Guid(08a5f3a4f1a5afa47b54e6eddc350ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/BookCase_2.prefab using Guid(08a5f3a4f1a5afa47b54e6eddc350ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cfa08213c8dc7398d55405c51fa02a4') in 0.029646 seconds
+  Import took 0.033789 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000913 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.077 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1285 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1766.
+Total: 2.213300 ms (FindLiveObjects: 0.204800 ms CreateObjectMapping: 0.045000 ms MarkObjects: 1.947100 ms  DeleteObjects: 0.014900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000830 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.932 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1285 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1768.
+Total: 2.229700 ms (FindLiveObjects: 0.172100 ms CreateObjectMapping: 0.102600 ms MarkObjects: 1.935700 ms  DeleteObjects: 0.017900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 852.859112 seconds.
+  path: Assets/Toon Furniture/Prefabs/Chair_7.prefab
+  artifactKey: Guid(4ae30892f34ad334095085eacc4dcb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Chair_7.prefab using Guid(4ae30892f34ad334095085eacc4dcb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2856ad3b5910068502302efafd11b94d') in 0.110221 seconds
+  Import took 0.113254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Toon Furniture/Prefabs/CoffeTable_3.prefab
+  artifactKey: Guid(84b3095a92ec27d448532647a747bbf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/CoffeTable_3.prefab using Guid(84b3095a92ec27d448532647a747bbf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9f88d27c10e37b7808bfd8a12d5295') in 0.166864 seconds
+  Import took 0.169901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Toon Furniture/Prefabs/Chair_9.prefab
+  artifactKey: Guid(b006dd3bb62abd14a83157791fb647ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Chair_9.prefab using Guid(b006dd3bb62abd14a83157791fb647ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a97e2cb19b71dae65604469c41fdc88') in 0.051606 seconds
+  Import took 0.055211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000864 seconds.
+  path: Assets/Toon Furniture/Prefabs/CoffeTable_1.prefab
+  artifactKey: Guid(0051796fd9b1ab54fbd13fdf8d2cd2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/CoffeTable_1.prefab using Guid(0051796fd9b1ab54fbd13fdf8d2cd2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d216047fe5f66489067da0b7a60cc70') in 0.038451 seconds
+  Import took 0.041653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Toon Furniture/Prefabs/CoffeTable_2.prefab
+  artifactKey: Guid(09782e9b245027943b80aeaafb397b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/CoffeTable_2.prefab using Guid(09782e9b245027943b80aeaafb397b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e55132c9894c729d9df67db3c4b77e') in 0.030638 seconds
+  Import took 0.033818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Toon Furniture/Prefabs/Chair_8.prefab
+  artifactKey: Guid(d6caea8253c81d34bb7c579c61127646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Chair_8.prefab using Guid(d6caea8253c81d34bb7c579c61127646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cde1a131d2a88a98b077a204f7dca2a') in 0.033278 seconds
+  Import took 0.036777 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000877 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.399 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1285 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1771.
+Total: 2.039900 ms (FindLiveObjects: 0.170800 ms CreateObjectMapping: 0.060400 ms MarkObjects: 1.782100 ms  DeleteObjects: 0.025100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 419.763837 seconds.
+  path: Assets/Toon Furniture/Models/Ball_1_1.fbx
+  artifactKey: Guid(77ac052cdde4bce4b9c521de187308df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Ball_1_1.fbx using Guid(77ac052cdde4bce4b9c521de187308df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf6c3c51ae2b99733f811db4a364fa5') in 0.119433 seconds
+  Import took 0.122465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Toon Furniture/Models/Chair_1.fbx
+  artifactKey: Guid(fafae49f08dbf0b4c82fbf9d5efda973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Chair_1.fbx using Guid(fafae49f08dbf0b4c82fbf9d5efda973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d827ba64fb75875c47bb95099e2cf5') in 0.048225 seconds
+  Import took 0.051128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Toon Furniture/Models/BookCase_2.fbx
+  artifactKey: Guid(aa588f75104cb8042acf31263cd73619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/BookCase_2.fbx using Guid(aa588f75104cb8042acf31263cd73619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28df3978461c88beaf96544c7e867bf4') in 0.049801 seconds
+  Import took 0.052359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Toon Furniture/Models/Books_1.fbx
+  artifactKey: Guid(02ca65ab740714a419148b75fac70719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Books_1.fbx using Guid(02ca65ab740714a419148b75fac70719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f32df6872be189d822c9d8896224ea') in 0.067904 seconds
+  Import took 0.070654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Toon Furniture/Models/BookCase_1.fbx
+  artifactKey: Guid(0989d878ef2d74c44b4c7ac19551ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/BookCase_1.fbx using Guid(0989d878ef2d74c44b4c7ac19551ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6947852d504bb778c9ece0a0601b7f8') in 0.043311 seconds
+  Import took 0.045804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.407660 seconds.
+  path: Assets/Toon Furniture/Materials/Ball_1_1.mat
+  artifactKey: Guid(bc571f4d55bfe8946a7f706439a53a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/Ball_1_1.mat using Guid(bc571f4d55bfe8946a7f706439a53a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6659e0d66c5ab0a76229ead9312f2c') in 0.042859 seconds
+  Import took 0.045747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Toon Furniture/Materials/Bed_2.mat
+  artifactKey: Guid(23661dce65b8f53478b9b15db1ae1d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/Bed_2.mat using Guid(23661dce65b8f53478b9b15db1ae1d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1515f0016fa88a3cb5ef49c1934825cc') in 0.030964 seconds
+  Import took 0.036000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Toon Furniture/Materials/BookCase_2.mat
+  artifactKey: Guid(d0088e45804523549867166fd4706b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/BookCase_2.mat using Guid(d0088e45804523549867166fd4706b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188df6be01011274e1516ff1cdfb23d8') in 0.025246 seconds
+  Import took 0.030395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Toon Furniture/Materials/Books_1.mat
+  artifactKey: Guid(a792c98929d502543971d5123dd91d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/Books_1.mat using Guid(a792c98929d502543971d5123dd91d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a89d8dc4c68397d97aeed227584dca8') in 0.020447 seconds
+  Import took 0.024210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Toon Furniture/Materials/Bed_1_1.mat
+  artifactKey: Guid(a23f193da264873409fcb5b9edda3d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/Bed_1_1.mat using Guid(a23f193da264873409fcb5b9edda3d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16bc833782abe52c4c5ebe39cc11eb2') in 0.027504 seconds
+  Import took 0.031108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Toon Furniture/Materials/BookCase_1.mat
+  artifactKey: Guid(15faa09740202bf45a908fce8a7be3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/BookCase_1.mat using Guid(15faa09740202bf45a908fce8a7be3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb1e31717007e07af375d2d85fa69d9') in 0.019623 seconds
+  Import took 0.022421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.692541 seconds.
+  path: Assets/kod
+  artifactKey: Guid(2e8f16d21ceaafe43b9ca5eac370cb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kod using Guid(2e8f16d21ceaafe43b9ca5eac370cb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158eae781d4c5d4f402283c40cfcd77d') in 0.015762 seconds
+  Import took 0.018240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.892873 seconds.
+  path: Assets/kod/DragHandler.cs
+  artifactKey: Guid(4e72695fbc0cb684082e5049d24d4317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kod/DragHandler.cs using Guid(4e72695fbc0cb684082e5049d24d4317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8377bfbc874ae7eb9699643ba2f4f7cb') in 0.023560 seconds
+  Import took 0.026926 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000922 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.156 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1286 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.1 MB.
+System memory in use after: 68.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1811.
+Total: 2.024700 ms (FindLiveObjects: 0.181900 ms CreateObjectMapping: 0.061900 ms MarkObjects: 1.761700 ms  DeleteObjects: 0.017700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000812 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.089 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1286 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.1 MB.
+System memory in use after: 68.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1813.
+Total: 4.385600 ms (FindLiveObjects: 0.417500 ms CreateObjectMapping: 0.176800 ms MarkObjects: 3.714400 ms  DeleteObjects: 0.073700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.192937 seconds.
+  path: Assets/kod/DragHandler.cs
+  artifactKey: Guid(4e72695fbc0cb684082e5049d24d4317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kod/DragHandler.cs using Guid(4e72695fbc0cb684082e5049d24d4317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e7bd8bf6b33b728b98bf77de944946') in 0.005907 seconds
+  Import took 0.008660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003342 seconds.
+  path: Assets/kod/DragHandler.cs
+  artifactKey: Guid(4e72695fbc0cb684082e5049d24d4317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kod/DragHandler.cs using Guid(4e72695fbc0cb684082e5049d24d4317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e7bd8bf6b33b728b98bf77de944946') in 0.005441 seconds
+  Import took 0.008792 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000892 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.948 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1286 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.1 MB.
+System memory in use after: 68.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1815.
+Total: 2.712700 ms (FindLiveObjects: 0.479500 ms CreateObjectMapping: 0.242500 ms MarkObjects: 1.968200 ms  DeleteObjects: 0.021100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000910 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.268 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1286 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.1 MB.
+System memory in use after: 68.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1817.
+Total: 1.927700 ms (FindLiveObjects: 0.192900 ms CreateObjectMapping: 0.059300 ms MarkObjects: 1.659100 ms  DeleteObjects: 0.015200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000820 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.074 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1286 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.1 MB.
+System memory in use after: 68.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1819.
+Total: 1.982200 ms (FindLiveObjects: 0.188800 ms CreateObjectMapping: 0.058900 ms MarkObjects: 1.715000 ms  DeleteObjects: 0.018300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001173 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.962 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1286 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.1 MB.
+System memory in use after: 68.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1821.
+Total: 3.807100 ms (FindLiveObjects: 1.951200 ms CreateObjectMapping: 0.115200 ms MarkObjects: 1.724300 ms  DeleteObjects: 0.015100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 447.289455 seconds.
+  path: Assets/menu/kitap.png
+  artifactKey: Guid(4631e6598e1b23f47b561ed166a88caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu/kitap.png using Guid(4631e6598e1b23f47b561ed166a88caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89df4f641a035e2ab0ae002a19e604f9') in 0.201040 seconds
+  Import took 0.204212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/menu/kitaplik.png
+  artifactKey: Guid(1a8b42abe657cf24a8cd8c5b12dd652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu/kitaplik.png using Guid(1a8b42abe657cf24a8cd8c5b12dd652e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f262a656ebdc663ae4d5730b1fb272e') in 0.053691 seconds
+  Import took 0.056424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000777 seconds.
+  path: Assets/menu/ortasehpa2.png
+  artifactKey: Guid(ec94987df376069438864b322b5f0478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu/ortasehpa2.png using Guid(ec94987df376069438864b322b5f0478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c22c9d5a4370f2744675c78c2d4eb72') in 0.056475 seconds
+  Import took 0.059124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/menu/koltuk.png
+  artifactKey: Guid(109edf7fc77fa154496210af87255d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu/koltuk.png using Guid(109edf7fc77fa154496210af87255d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873ed7ae9917bf88a71555b1135d0c3a') in 0.039196 seconds
+  Import took 0.043884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/menu/sandalye.png
+  artifactKey: Guid(b57ce3c6f37f6ea4fb1decf87ea4061b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu/sandalye.png using Guid(b57ce3c6f37f6ea4fb1decf87ea4061b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '251c76f11c11ef861a890abce5e077eb') in 0.038869 seconds
+  Import took 0.041760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/menu/koltuk.png
+  artifactKey: Guid(109edf7fc77fa154496210af87255d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu/koltuk.png using Guid(109edf7fc77fa154496210af87255d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873ed7ae9917bf88a71555b1135d0c3a') in 0.036751 seconds
+  Import took 0.040014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/menu/koltuk2.png
+  artifactKey: Guid(eb9423224f44d724bb9c5a28849371cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu/koltuk2.png using Guid(eb9423224f44d724bb9c5a28849371cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15bb89e37ac7dc37fc6aefa691ce99c') in 0.037586 seconds
+  Import took 0.040227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/menu/sandalye2.png
+  artifactKey: Guid(ad784c38584866d4fb6a51281849ea2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu/sandalye2.png using Guid(ad784c38584866d4fb6a51281849ea2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b7e642ac463a3512b70c35e273102e') in 0.041753 seconds
+  Import took 0.045031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/menu/ortasehpa.png
+  artifactKey: Guid(e5486f2e75fe3df438d9aacac04fd379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu/ortasehpa.png using Guid(e5486f2e75fe3df438d9aacac04fd379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faef3a41294055b629b1e00f8c5d65bf') in 0.038987 seconds
+  Import took 0.041499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.421188 seconds.
+  path: Assets/Scenes/Prifab
+  artifactKey: Guid(2ae9885181d5bd042ba2d28f26ad8829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prifab using Guid(2ae9885181d5bd042ba2d28f26ad8829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00053fd8bcb4188dbb2b1f6a8d975729') in 0.022008 seconds
+  Import took 0.025374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032565 seconds.
+  path: Assets/Scenes/Prifab/New Material 1.mat
+  artifactKey: Guid(a2a7b1acccf8d6745a44abb969537fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prifab/New Material 1.mat using Guid(a2a7b1acccf8d6745a44abb969537fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea791617a271dc5fdce32c28ebdaf86d') in 0.139457 seconds
+  Import took 0.142816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Scenes/Prifab/New Material.mat
+  artifactKey: Guid(eab6442540dab06489a05a3f0be09eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prifab/New Material.mat using Guid(eab6442540dab06489a05a3f0be09eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a08e2caf60c26ea0a8a418a6dd906c6') in 0.036419 seconds
+  Import took 0.038917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Scenes/Prifab/New Material 3.mat
+  artifactKey: Guid(8dc292c0a6c7bab4399d4c629af50084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prifab/New Material 3.mat using Guid(8dc292c0a6c7bab4399d4c629af50084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b891de2ed8b64b860119518c7737ca') in 0.030188 seconds
+  Import took 0.032985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Scenes/Prifab/oda.prefab
+  artifactKey: Guid(be890d3bac5c6ba4a8fbd3a842e3e4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prifab/oda.prefab using Guid(be890d3bac5c6ba4a8fbd3a842e3e4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b9c2b7847f6e865484836fb18fef44') in 0.042977 seconds
+  Import took 0.047190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Scenes/Prifab/New Material 2.mat
+  artifactKey: Guid(45b95e7087d8de94a9b23dbf7d218fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prifab/New Material 2.mat using Guid(45b95e7087d8de94a9b23dbf7d218fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b53034fd682cfe6551d19492c26c508') in 0.029607 seconds
+  Import took 0.032374 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001287 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.904 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1286 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.1 MB.
+System memory in use after: 68.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1842.
+Total: 2.054300 ms (FindLiveObjects: 0.168100 ms CreateObjectMapping: 0.051600 ms MarkObjects: 1.800300 ms  DeleteObjects: 0.033200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.979324 seconds.
+  path: Assets/Scenes/Prifab/Cube.prefab
+  artifactKey: Guid(57872e549c3bb4443ba2673f480d5f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prifab/Cube.prefab using Guid(57872e549c3bb4443ba2673f480d5f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e82018ceff5fb0ea07c4b37204d9ec3') in 0.067602 seconds
+  Import took 0.070163 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003352 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.886 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1286 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.2 MB.
+System memory in use after: 68.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1845.
+Total: 2.939100 ms (FindLiveObjects: 0.378500 ms CreateObjectMapping: 0.141400 ms MarkObjects: 2.381000 ms  DeleteObjects: 0.036300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001143 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.972 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1286 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.5 MB.
-System memory in use after: 67.6 MB.
+Unloading 1285 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.2 MB.
+System memory in use after: 68.3 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1759.
-Total: 1.880000 ms (FindLiveObjects: 0.231000 ms CreateObjectMapping: 0.043000 ms MarkObjects: 1.589700 ms  DeleteObjects: 0.014600 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1847.
+Total: 2.363800 ms (FindLiveObjects: 0.308900 ms CreateObjectMapping: 0.064200 ms MarkObjects: 1.959400 ms  DeleteObjects: 0.030200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 170.266793 seconds.
+  path: Assets/Toon Furniture/Prefabs
+  artifactKey: Guid(e7386da458e0dd34692fe7dabe25853b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs using Guid(e7386da458e0dd34692fe7dabe25853b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e991a6f21abee3301778cf8fa411d235') in 0.025129 seconds
+  Import took 0.028391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.370074 seconds.
+  path: Assets/Toon Furniture/Prefabs/CoffeTable_4.prefab
+  artifactKey: Guid(76ad0c5c9efae324b940fda5e601d62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/CoffeTable_4.prefab using Guid(76ad0c5c9efae324b940fda5e601d62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf396338edcaa7572280b582c57a05a') in 0.093738 seconds
+  Import took 0.097274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Toon Furniture/Prefabs/Cooker_1.prefab
+  artifactKey: Guid(c52450844cbe82d4b8e23d3c84431f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Cooker_1.prefab using Guid(c52450844cbe82d4b8e23d3c84431f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3adb24e054281bdff6d2057bca46a680') in 0.127725 seconds
+  Import took 0.131098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Toon Furniture/Prefabs/Couch_2.prefab
+  artifactKey: Guid(eb6a9e1981932144d8dfe0055c6c90f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Couch_2.prefab using Guid(eb6a9e1981932144d8dfe0055c6c90f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '306ce593b893c38e3ab6a74d66a5bdd2') in 0.045250 seconds
+  Import took 0.048019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Toon Furniture/Prefabs/Couch_3.prefab
+  artifactKey: Guid(2145aca4677bd374bb41e3f80a5b53d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Couch_3.prefab using Guid(2145aca4677bd374bb41e3f80a5b53d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857a6c835f040c292b23efe34aef49cc') in 0.040235 seconds
+  Import took 0.042775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Toon Furniture/Prefabs/Counter_2_2.prefab
+  artifactKey: Guid(0b26924746d6cad4780f9d19829b95b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Counter_2_2.prefab using Guid(0b26924746d6cad4780f9d19829b95b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eadc197e7759855bffa2e1276cbb229') in 0.037355 seconds
+  Import took 0.040234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Toon Furniture/Prefabs/CoffeTable_4.prefab
+  artifactKey: Guid(76ad0c5c9efae324b940fda5e601d62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/CoffeTable_4.prefab using Guid(76ad0c5c9efae324b940fda5e601d62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf396338edcaa7572280b582c57a05a') in 0.025059 seconds
+  Import took 0.031099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Toon Furniture/Prefabs/Couch_1.prefab
+  artifactKey: Guid(57a32613b8338fb46b75889d19358690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Couch_1.prefab using Guid(57a32613b8338fb46b75889d19358690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ee624f45660e38bde2b20b7b16bd13') in 0.035496 seconds
+  Import took 0.038348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Toon Furniture/Prefabs/Counter_1_1.prefab
+  artifactKey: Guid(2794e48d8bf5c7349b42f50bb23e5e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Counter_1_1.prefab using Guid(2794e48d8bf5c7349b42f50bb23e5e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3020593f5601a2d3dc4fef718daa010') in 0.029962 seconds
+  Import took 0.033045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Toon Furniture/Prefabs/Counter_2_1.prefab
+  artifactKey: Guid(322de118bfa5ec4418f29255f2bdeac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Counter_2_1.prefab using Guid(322de118bfa5ec4418f29255f2bdeac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4545b6acbf4716998b0bd78414f25bb5') in 0.040133 seconds
+  Import took 0.043788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Toon Furniture/Prefabs/Counter_1_1.prefab
+  artifactKey: Guid(2794e48d8bf5c7349b42f50bb23e5e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Counter_1_1.prefab using Guid(2794e48d8bf5c7349b42f50bb23e5e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3020593f5601a2d3dc4fef718daa010') in 0.036112 seconds
+  Import took 0.038822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Toon Furniture/Prefabs/Headboard_1_1.prefab
+  artifactKey: Guid(1a63090d599e28043b9a0505fb2a3315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Headboard_1_1.prefab using Guid(1a63090d599e28043b9a0505fb2a3315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a00a39456c4bda3531c8494fdc20e91') in 0.030732 seconds
+  Import took 0.033312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.450860 seconds.
+  path: Assets/Toon Furniture/Prefabs/Headboard_1_2.prefab
+  artifactKey: Guid(8a0b1c6fad6341742bc53e359b2eb97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Prefabs/Headboard_1_2.prefab using Guid(8a0b1c6fad6341742bc53e359b2eb97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e9cc89fadee95a93acb5ee2debac67') in 0.103476 seconds
+  Import took 0.113797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.797677 seconds.
+  path: Assets/Toon Furniture/Models/Chair_2.fbx
+  artifactKey: Guid(0c18f0ffd4318a149bd680cdf60d0e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Chair_2.fbx using Guid(0c18f0ffd4318a149bd680cdf60d0e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b622231c8290bb3c38160af4b5a04f') in 0.221135 seconds
+  Import took 0.229517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Toon Furniture/Models/Coffee_Table_1.fbx
+  artifactKey: Guid(844fae422a50aab4f9e8d285bad1c241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Coffee_Table_1.fbx using Guid(844fae422a50aab4f9e8d285bad1c241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c733a8c98cbc882ccc7b251db939305') in 0.094658 seconds
+  Import took 0.101287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Toon Furniture/Models/Chair_6.fbx
+  artifactKey: Guid(b2f590637bb1b5044877c0b3e9db9094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Chair_6.fbx using Guid(b2f590637bb1b5044877c0b3e9db9094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c9d65d401384caa9dfcac5f1a80ae3') in 0.052627 seconds
+  Import took 0.056533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Toon Furniture/Models/Chair_7.fbx
+  artifactKey: Guid(e26192968d537f143a47e72dfefb548f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Chair_7.fbx using Guid(e26192968d537f143a47e72dfefb548f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df44f9ae308ccb75cae466cdadccf89') in 0.050931 seconds
+  Import took 0.055897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Toon Furniture/Models/Chair_8.fbx
+  artifactKey: Guid(b2d48f69e426f3c41b473408129c689b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Chair_8.fbx using Guid(b2d48f69e426f3c41b473408129c689b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb84bd8af47ac9f4fbbccd91ce265b6') in 0.047555 seconds
+  Import took 0.050784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Toon Furniture/Models/Chair_2.fbx
+  artifactKey: Guid(0c18f0ffd4318a149bd680cdf60d0e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Chair_2.fbx using Guid(0c18f0ffd4318a149bd680cdf60d0e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b622231c8290bb3c38160af4b5a04f') in 0.056668 seconds
+  Import took 0.060272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Toon Furniture/Models/Chair_9.fbx
+  artifactKey: Guid(7eb169ca98be6744db6423d236b0e90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Chair_9.fbx using Guid(7eb169ca98be6744db6423d236b0e90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c667ed9fc68ea19b1349bbe3c3405b') in 0.064710 seconds
+  Import took 0.068398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Toon Furniture/Models/Chair_5.fbx
+  artifactKey: Guid(57715435b4fec704fa35cec6763c28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Chair_5.fbx using Guid(57715435b4fec704fa35cec6763c28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e556b2adffb67875084bec9f9901d05') in 0.066866 seconds
+  Import took 0.072166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Toon Furniture/Models/Chair_4.fbx
+  artifactKey: Guid(f701747214874ac46a0c4ac184b53cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Chair_4.fbx using Guid(f701747214874ac46a0c4ac184b53cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d06abb23613d861dee56816af5849ff') in 0.035945 seconds
+  Import took 0.050539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Toon Furniture/Models/Chair_3.fbx
+  artifactKey: Guid(56143fa81708d6647bc92eab52aa58e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Chair_3.fbx using Guid(56143fa81708d6647bc92eab52aa58e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23532ec5084803f1d7d58f6056cc33a0') in 0.032280 seconds
+  Import took 0.037185 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000804 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.922 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1285 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.3 MB.
+System memory in use after: 68.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1850.
+Total: 1.767500 ms (FindLiveObjects: 0.193200 ms CreateObjectMapping: 0.066800 ms MarkObjects: 1.488700 ms  DeleteObjects: 0.016600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.554678 seconds.
+  path: Assets/Scenes/Prifab/BookCase_2.prefab
+  artifactKey: Guid(08a5f3a4f1a5afa47b54e6eddc350ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prifab/BookCase_2.prefab using Guid(08a5f3a4f1a5afa47b54e6eddc350ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48bd77732e44aa5fee0b006f88fcc3c') in 0.068616 seconds
+  Import took 0.071312 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001256 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.104 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1285 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.3 MB.
+System memory in use after: 68.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1853.
+Total: 2.236700 ms (FindLiveObjects: 0.345300 ms CreateObjectMapping: 0.112100 ms MarkObjects: 1.760900 ms  DeleteObjects: 0.016600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 763.037567 seconds.
+  path: Assets/Scenes/Prifab/oda.prefab
+  artifactKey: Guid(be890d3bac5c6ba4a8fbd3a842e3e4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prifab/oda.prefab using Guid(be890d3bac5c6ba4a8fbd3a842e3e4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae94a861b938fdce4ada728124566961') in 0.078270 seconds
+  Import took 0.081282 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
