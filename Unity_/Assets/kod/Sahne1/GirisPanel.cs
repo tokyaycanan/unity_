@@ -32,6 +32,8 @@ public class GirisPanel : MonoBehaviour
             //veritabanı
 
              StartCoroutine(girisYap());
+            StartCoroutine(tablo());
+
         }
     }
 
@@ -63,4 +65,28 @@ public class GirisPanel : MonoBehaviour
             }
         }
     }
+
+    IEnumerator tablo()
+    {
+        WWWForm form = new WWWForm();
+        form.AddField("unity", "olusturma");
+        form.AddField("kullaniciAdi", kullaniciAdi.text); //selim
+
+
+        using (UnityWebRequest www = UnityWebRequest.Post("http://localhost/unity_DB/userRegister.php", form))
+        {
+            yield return www.SendWebRequest();
+
+            if (www.isNetworkError || www.isHttpError)
+            {
+                Debug.Log(www.error);
+            }
+            else
+            {
+                Debug.Log("Sorgu Sonucu:" + www.downloadHandler.text);
+                StartCoroutine(pK_Script.hataPanel(www.downloadHandler.text));
+            }
+        }
+    }
+
 }
