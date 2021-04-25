@@ -9,11 +9,11 @@ public class odaKontrol : MonoBehaviour
 
     void Start()
     {
-        animator = GameObject.Find("kayitP").GetComponent<Animator>();
+        animator = GameObject.Find("Paneller").GetComponent<Animator>();
     }
     public void olusturB()
     {
-        animator.SetBool("kaydet", true);
+        animator.SetBool("KayitOL", true);
     }
     // Update is called once per frame
     void Update()
