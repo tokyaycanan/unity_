@@ -33,13 +33,10 @@ public class KayitOl : MonoBehaviour
         }
         else
         {
-
             if (sifre_k.text.Equals(sifret_k.text))
             {
                Debug.Log("Veritabanı Bağlantısı");
                     StartCoroutine(kayitOl());
-
-               
             }
             else
             {

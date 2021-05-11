@@ -17,6 +17,13 @@ public class oyun : MonoBehaviour
     Vector3 scale;
     string nesneTag, konumX, konumY, konumZ;
     float X, Y, Z;
+    private Animator animator;
+    private Animator hataAnimator;
+
+    void Start()
+    {
+        animator = GameObject.Find("kayitP").GetComponent<Animator>();
+    }
 
     public void x()
     {
@@ -34,6 +41,7 @@ public class oyun : MonoBehaviour
         }
         ground.transform.localScale = scale;
         Instantiate(ground, transform.position, transform.rotation);
+        animator.SetBool("kaydet", true);
 
     }
     public void kayit()
