@@ -27,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 758698704939588359}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.2973876, y: 0.47619474, z: 1.7438533}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -4.9812, y: -0.45, z: 1.77}
+  m_LocalScale: {x: 0.95365286, y: 1, z: 0.911074}
   m_Children: []
   m_Father: {fileID: 7574500934147989475}
   m_RootOrder: 0
@@ -124,7 +124,7 @@ Transform:
   m_GameObject: {fileID: 915146138300307327}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -10.057388, y: 2.9061947, z: 1.8138534}
-  m_LocalScale: {x: 0.5, y: 5, z: 9}
+  m_LocalScale: {x: 0.5, y: 7, z: 9}
   m_Children: []
   m_Father: {fileID: 7574500934147989475}
   m_RootOrder: 4
@@ -219,7 +219,7 @@ Transform:
   m_GameObject: {fileID: 2161729077044206453}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -5.1973877, y: 2.9061947, z: 6.2038536}
-  m_LocalScale: {x: 0.5, y: 5, z: 9.967646}
+  m_LocalScale: {x: 0.5, y: 7, z: 9.967646}
   m_Children: []
   m_Father: {fileID: 7574500934147989475}
   m_RootOrder: 2
@@ -314,7 +314,7 @@ Transform:
   m_GameObject: {fileID: 4680245081895734811}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.45738745, y: 2.9061947, z: 1.8138534}
-  m_LocalScale: {x: 0.5, y: 5, z: 9}
+  m_LocalScale: {x: 0.5, y: 7, z: 9}
   m_Children: []
   m_Father: {fileID: 7574500934147989475}
   m_RootOrder: 1
@@ -409,7 +409,7 @@ Transform:
   m_GameObject: {fileID: 4896316940315949313}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -5.2573876, y: 2.9061947, z: -2.7561467}
-  m_LocalScale: {x: 0.5, y: 5, z: 10.099999}
+  m_LocalScale: {x: 0.5, y: 7, z: 10.099999}
   m_Children: []
   m_Father: {fileID: 7574500934147989475}
   m_RootOrder: 3
@@ -501,7 +501,7 @@ Transform:
   m_GameObject: {fileID: 6593677682602732005}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 1, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 2}
   m_Children:
   - {fileID: 6214386046098181196}
   - {fileID: 6333701147370884613}

@@ -41,15 +41,15 @@ public class oyun : MonoBehaviour
         }
         ground.transform.localScale = scale;
         Instantiate(ground, transform.position, transform.rotation);
-        animator.SetBool("kaydet", true);
+       // animator.SetBool("kaydet", true);
 
     }
     public void kayit()
     {
-        StartCoroutine(veriEkle());
+     //   StartCoroutine(veriEkle());
     }
 
-    IEnumerator veriEkle()
+   /* IEnumerator veriEkle()
     {
         WWWForm form = new WWWForm();
         form.AddField("unity", "nesneEkle");
@@ -82,7 +82,7 @@ public class oyun : MonoBehaviour
             }
         }
 
-    }
+    }*/
 
     
 }
