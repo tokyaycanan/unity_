@@ -19,6 +19,9 @@ public class cams : MonoBehaviour
     bool isMouseDragging;
     Vector3 offsetValue;
     Vector3 positionOfScreen;
+    int velocidade = 30;
+    string name;
+
     public void switchcam(int x)
     {
         float c;
@@ -34,22 +37,22 @@ public class cams : MonoBehaviour
         deactivateall();
         if (x == 1)
         {
-            cam1.transform.localPosition = new Vector3((a*10)/-2, 2.2f, b*(-3));
+            cam1.transform.localPosition = new Vector3((a * 10) / -2, 2.2f, b * (-2));
             cam1.enabled = true;
             cam1 = cam1;
         }
         else if (x == 2)
         {
 
-            cam2.transform.localPosition = new Vector3((a * 10) /-2, 2.2f, b*(6.4f));
+            cam2.transform.localPosition = new Vector3((a * 10) / -2, 2.2f, b * (5.0f));
             cam2.enabled = true;
-           cam1 = cam2;
+            cam1 = cam2;
         }
         else if (x == 3)
         {
 
 
-            cam3.transform.localPosition = new Vector3((a * -10), 2.2f, 10);
+            //cam3.transform.localPosition = new Vector3((a * -10), 2.2f, 10);
             cam3.enabled = true;
 
             cam1 = cam3;
@@ -83,6 +86,18 @@ public class cams : MonoBehaviour
     void Update()
     {
 
+        if (Input.GetKey(KeyCode.A))
+        {
+            getTarget.transform.Rotate(Vector3.up * velocidade * Time.deltaTime);
+
+        }
+
+        if (Input.GetKey(KeyCode.D))
+        {
+            getTarget.transform.Rotate(-Vector3.up * velocidade * Time.deltaTime);
+
+        }
+
         //Mouse Button Press Down
         if (Input.GetMouseButtonDown(0))
         {
@@ -90,6 +105,7 @@ public class cams : MonoBehaviour
             getTarget = ReturnClickedObject(out hitInfo);
             if (getTarget != null)
             {
+                transform.Rotate(new Vector3(0, 90, 0));
                 isMouseDragging = true;
                 //Converting world position to screen position.
                 positionOfScreen = cam1.WorldToScreenPoint(getTarget.transform.position);
@@ -114,6 +130,11 @@ public class cams : MonoBehaviour
 
             //It will update target gameobject's current postion.
             getTarget.transform.position = currentPosition;
+            name = getTarget.ToString();
+            Debug.Log("NAME : " + name);
+            Vector3  scale = GameObject.FindGameObjectWithTag("kitaplik").transform.position;
+            Vector3 donusum = cam1.ScreenToWorldPoint(scale);
+            Debug.Log("position : " +donusum);
         }
 
 
