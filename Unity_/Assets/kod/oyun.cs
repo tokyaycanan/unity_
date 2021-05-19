@@ -41,48 +41,10 @@ public class oyun : MonoBehaviour
         }
         ground.transform.localScale = scale;
         Instantiate(ground, transform.position, transform.rotation);
-       // animator.SetBool("kaydet", true);
+        animator.SetBool("kaydet", true);
 
     }
-    public void kayit()
-    {
-     //   StartCoroutine(veriEkle());
-    }
-
-   /* IEnumerator veriEkle()
-    {
-        WWWForm form = new WWWForm();
-        form.AddField("unity", "nesneEkle");
-        scale = GameObject.FindGameObjectWithTag("kitaplik").transform.position;
-        X = scale.x;
-        Y = scale.y;
-        Z = scale.z;
-        Debug.Log(scale);
-        nesneTag = "kitaplik";
-        konumX = X.ToString();
-        konumY = Y.ToString();
-        konumZ = Z.ToString();
-       
-        form.AddField("nesneTag", nesneTag);
-        form.AddField("konumX", konumX);
-        form.AddField("konumY", konumY);
-        form.AddField("konumZ", konumZ);
-        using (UnityWebRequest www = UnityWebRequest.Post("http://localhost/unity_DB/userRegister.php", form))
-        {
-            yield return www.SendWebRequest();
-
-            if (www.isNetworkError || www.isHttpError)
-            {
-                Debug.Log(www.error);
-            }
-            else
-            {
-                Debug.Log("Sorgu Sonucu:" + www.downloadHandler.text);
-             
-            }
-        }
-
-    }*/
+  
 
     
 }

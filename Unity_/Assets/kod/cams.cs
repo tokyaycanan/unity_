@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
-
+using UnityEngine.Networking;
 public class cams : MonoBehaviour
 {
     public Camera cam1;
@@ -16,11 +16,20 @@ public class cams : MonoBehaviour
     public InputField en;
 
     public GameObject getTarget;
+    public GameObject kitaplik;
+    public GameObject chair;
     bool isMouseDragging;
     Vector3 offsetValue;
     Vector3 positionOfScreen;
     int velocidade = 30;
     string name;
+
+    List<string> list = new List<string>();
+    string nesneTag, konumX, konumY, konumZ;
+    float X, Y, Z;
+    Vector3 scale;
+    public GameObject yeniobje;
+
 
     public void switchcam(int x)
     {
@@ -130,13 +139,47 @@ public class cams : MonoBehaviour
 
             //It will update target gameobject's current postion.
             getTarget.transform.position = currentPosition;
-            name = getTarget.ToString();
-            Debug.Log("NAME : " + name);
-            Vector3  scale = GameObject.FindGameObjectWithTag("kitaplik").transform.position;
-            Vector3 donusum = cam1.ScreenToWorldPoint(scale);
-            Debug.Log("position : " +donusum);
+            if (getTarget.tag=="kitaplik")
+            {
+                kitaplik = getTarget;
+                name = kitaplik.ToString();
+               
+
+            }
+            if (getTarget.tag == "chair")
+            {
+                chair = getTarget;
+                name = chair.ToString();
+               
+
+            }
+
+           
+          /*  Debug.Log("position : " + kitaplik.transform.position);
+            if (GameObject.FindWithTag("chair")!=null)
+            {
+                Debug.Log("position : " + chair.transform.position);
+            }
+            */
+           
+
         }
 
+
+    }
+    public  void deneme()
+    {
+
+        if (GameObject.FindWithTag("kitaplik") != null)
+        {
+            yeniobje = kitaplik;
+            StartCoroutine(veriEkle());
+        }
+        if (GameObject.FindWithTag("chair") != null)
+        {
+            yeniobje = chair;
+            StartCoroutine(veriEkle());
+        }
 
     }
 
@@ -152,4 +195,51 @@ public class cams : MonoBehaviour
         return target;
     }
 
+
+
+    public InputField kullaniciAdi, tasarim;
+
+
+    
+   
+    string nesnetag;
+
+
+    
+
+     IEnumerator veriEkle()
+  {
+      WWWForm form = new WWWForm();
+      form.AddField("unity", "nesneEkle");
+      form.AddField("kullaniciAdi", kullaniciAdi.text);
+      scale = yeniobje.transform.position;
+      X = scale.x;
+      Y = scale.y;
+      Z = scale.z;
+      Debug.Log(scale);
+      nesneTag = yeniobje.tag;
+      konumX = X.ToString();
+      konumY = Y.ToString();
+      konumZ = Z.ToString();
+
+      form.AddField("nesneTag", nesneTag);
+      form.AddField("konumX", konumX);
+      form.AddField("konumY", konumY);
+      form.AddField("konumZ", konumZ);
+      using (UnityWebRequest www = UnityWebRequest.Post("http://localhost/unity_DB/userRegister.php", form))
+      {
+          yield return www.SendWebRequest();
+
+          if (www.isNetworkError || www.isHttpError)
+          {
+              Debug.Log(www.error);
+          }
+          else
+          {
+              Debug.Log("Sorgu Sonucu:" + www.downloadHandler.text);
+
+          }
+      }
+
+  }
 }
