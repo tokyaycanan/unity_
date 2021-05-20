@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 using UnityEngine.Networking;
+using System;
 public class cams : MonoBehaviour
 {
     public Camera cam1;
@@ -17,6 +18,7 @@ public class cams : MonoBehaviour
     public GameObject getTarget;
     public GameObject kitaplik;
     public GameObject chair;
+    public GameObject oda;
     bool isMouseDragging;
     Vector3 offsetValue;
     Vector3 positionOfScreen;
@@ -28,7 +30,7 @@ public class cams : MonoBehaviour
     float X, Y, Z;
     Vector3 scale;
     public GameObject yeniobje;
-
+    string tag;
 
     public void switchcam(int x)
     {
@@ -89,7 +91,7 @@ public class cams : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.S))
         {
             getTarget.transform.Rotate(Vector3.back * velocidade * Time.deltaTime);
 
@@ -134,11 +136,10 @@ public class cams : MonoBehaviour
 
             //It will update target gameobject's current postion.
               getTarget.transform.position = currentPosition;
-            Debug.Log("x " + getTarget.transform.position);
+            Debug.Log("x " + getTarget.transform.localPosition);
             if (getTarget.tag=="kitaplik")
             {
-                var player = GameObject.FindGameObjectWithTag("kitaplik").transform;
-              //  Debug.Log("x " + player);
+
                 kitaplik = getTarget;
                 name = kitaplik.ToString();
                
@@ -166,7 +167,7 @@ public class cams : MonoBehaviour
 
     }
 
-    /*public  void deneme()
+    public  void kayit()
     {
 
         if (GameObject.FindWithTag("kitaplik") != null)
@@ -179,8 +180,57 @@ public class cams : MonoBehaviour
             yeniobje = chair;
             StartCoroutine(veriEkle());
         }
+        if (GameObject.FindWithTag("oda") != null)
+        {
+            yeniobje = oda;
+            StartCoroutine(odaEkle());
+        }
+    }
+    public void odaOlusturD()
+    {
+        tag = "oda";
+        StartCoroutine(tagCekme());
+        string index = Array.Find(tagDizi, e => e.Contains("oda"));
 
-    }*/
+        if (index != null)
+        {
+
+            yeniobje = Instantiate(oda, transform);
+            StartCoroutine(veriCek());
+        }
+    }
+    public void deneme()
+    {
+        tag = "kitaplik";
+        StartCoroutine(tagCekme());
+        string index = Array.Find(tagDizi, e => e.Contains("kitaplik"));
+        if (index!=null)
+        {
+            Debug.Log("if içi");
+            
+            yeniobje = Instantiate(kitaplik, transform);
+            StartCoroutine(veriCek());
+        }
+    }
+    public void deneme1()
+    {
+        tag = "chair";
+        StartCoroutine(tagCekme());
+        string index = Array.Find(tagDizi, e => e.Contains("chair"));
+       
+        if (index != null)
+        {
+            
+            yeniobje = Instantiate(chair, transform);
+            StartCoroutine(veriCek());
+        }
+
+      
+
+    }
+
+
+
 
     //Method to Return Clicked Object
     GameObject ReturnClickedObject(out RaycastHit hit)
@@ -199,19 +249,133 @@ public class cams : MonoBehaviour
     public InputField kullaniciAdi, tasarim;
 
 
-    
-   
+
+    public string[] veriler = new string[4];
+    public string[] tagDizi = new string[10];
     string nesnetag;
 
 
+
+    IEnumerator veriCek()
+    {
+        WWWForm form = new WWWForm();
+        form.AddField("unity", "nesneCekme");
+        form.AddField("kullaniciAdi", kullaniciAdi.text);
+        form.AddField("tag", tag);
+
+        WWW data = new WWW("http://localhost/unity_DB/userRegister.php", form);
+
+        yield return data;
+
+        Debug.Log( "deneme " +data.text);
+        veriler = data.text.Split(';');
+        nesneTag = veriler[0];
+        konumX = veriler[1];
+        konumY = veriler[2];
+        konumZ = veriler[3];
+
+        X = float.Parse(konumX);
+        Y = float.Parse(konumY);
+        Z = float.Parse(konumZ);
+
+        scale.x = X;
+        scale.y = Y;
+        scale.z = Z;
+
+
+        yeniobje.transform.localPosition = new Vector3(X, Y, Z);
+        yeniobje.tag = nesneTag;
+
+
+        Debug.Log(data.text);
+      /*  Debug.Log(X.ToString());
+        Debug.Log(Y.ToString());
+        Debug.Log(Z.ToString());*/
+
+    }
+
+
+    IEnumerator odaOlustur()
+    {
+        WWWForm form = new WWWForm();
+        form.AddField("unity", "nesneCekme");
+        form.AddField("kullaniciAdi", kullaniciAdi.text);
+        form.AddField("tag", tag);
+
+        WWW data = new WWW("http://localhost/unity_DB/userRegister.php", form);
+
+        yield return data;
+
+        veriler = data.text.Split(';');
+        nesneTag = veriler[0];
+        konumX = veriler[1];
+        konumY = veriler[2];
+
+        X = float.Parse(konumX);
+        Y = float.Parse(konumY);
+       
+
+        scale.x = X;
+        scale.y = Y;
+
+        yeniobje.transform.localScale = new Vector3(X, 1.0f, Y);
+        yeniobje.tag = nesneTag;
+
+
+
+    }
+   IEnumerator tagCekme()
+    {
+        WWWForm form = new WWWForm();
+        form.AddField("unity", "tagCekme");
+        form.AddField("kullaniciAdi", kullaniciAdi.text);
+       // form.AddField("tag", tag);
+
+        WWW data = new WWW("http://localhost/unity_DB/userRegister.php", form);
+
+        yield return data;
+        tagDizi = data.text.Split(';');
+
     
 
-   /*  IEnumerator veriEkle()
+
+       Debug.Log(tagDizi[0]);
+      
+
+
+    }
+    IEnumerator odaEkle()
+    {
+        WWWForm form = new WWWForm();
+        form.AddField("unity", "odaEkle");
+        form.AddField("kullaniciAdi", kullaniciAdi.text);
+        form.AddField("konumX", en.text);
+        form.AddField("konumY", gen.text);
+        nesneTag = yeniobje.tag;
+        form.AddField("nesneTag", nesneTag);
+
+        using (UnityWebRequest www = UnityWebRequest.Post("http://localhost/unity_DB/userRegister.php", form))
+        {
+            yield return www.SendWebRequest();
+
+            if (www.isNetworkError || www.isHttpError)
+            {
+                Debug.Log(www.error);
+            }
+            else
+            {
+                Debug.Log("Sorgu Sonucu:" + www.downloadHandler.text);
+
+            }
+        }
+    }
+
+    IEnumerator veriEkle()
   {
       WWWForm form = new WWWForm();
       form.AddField("unity", "nesneEkle");
       form.AddField("kullaniciAdi", kullaniciAdi.text);
-      scale = yeniobje.transform.position;
+      scale = yeniobje.transform.localPosition;
       X = scale.x;
       Y = scale.y;
       Z = scale.z;
@@ -240,7 +404,7 @@ public class cams : MonoBehaviour
           }
       }
 
-  }*/
+  }
 
 
 }

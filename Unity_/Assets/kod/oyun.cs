@@ -22,7 +22,7 @@ public class oyun : MonoBehaviour
 
     void Start()
     {
-       // animator = GameObject.Find("kayitP").GetComponent<Animator>();
+       animator = GameObject.Find("kayitP").GetComponent<Animator>();
     }
 
     public void x()
@@ -40,8 +40,8 @@ public class oyun : MonoBehaviour
             scale = new Vector3(b, 1.0f, a);
         }
         ground.transform.localScale = scale;
-        Instantiate(ground, transform.position, transform.rotation);
-      //  animator.SetBool("kaydet", true);
+        Instantiate(ground, transform);
+        animator.SetBool("kaydet", true);
 
     }
   

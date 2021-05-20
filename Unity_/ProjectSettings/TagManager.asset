@@ -6,6 +6,7 @@ TagManager:
   tags:
   - kitaplik
   - chair
+  - oda
   layers:
   - Default
   - TransparentFX
