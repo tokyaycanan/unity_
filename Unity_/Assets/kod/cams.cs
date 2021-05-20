@@ -10,7 +10,6 @@ public class cams : MonoBehaviour
     public Camera cam2;
     public Camera cam3;
     public Camera cam4;
-    public Camera cam5;
 
     public InputField gen;
     public InputField en;
@@ -46,14 +45,14 @@ public class cams : MonoBehaviour
         deactivateall();
         if (x == 1)
         {
-            cam1.transform.localPosition = new Vector3((a * 10) / -2, 2.2f, b * (-2));
+            cam1.transform.localPosition = new Vector3((a * -10)+5, 2.2f, b );
             cam1.enabled = true;
             cam1 = cam1;
         }
         else if (x == 2)
         {
 
-            cam2.transform.localPosition = new Vector3((a * 10) / -2, 2.2f, b * (5.0f));
+            cam2.transform.localPosition = new Vector3((a * -9), 2.2f, b * 12);
             cam2.enabled = true;
             cam1 = cam2;
         }
@@ -61,7 +60,7 @@ public class cams : MonoBehaviour
         {
 
 
-            //cam3.transform.localPosition = new Vector3((a * -10), 2.2f, 10);
+            cam3.transform.localPosition = new Vector3((a * 7), 2.2f, 0.67f);
             cam3.enabled = true;
 
             cam1 = cam3;
@@ -69,17 +68,12 @@ public class cams : MonoBehaviour
         else if (x == 4)
         {
 
+            cam4.transform.localPosition = new Vector3((a * 9), 2.2f, (b*12));
             cam4.enabled = true;
 
             cam1 = cam4;
         }
-        else
-        {
-
-            cam5.enabled = true;
-
-            cam1 = cam5;
-        }
+ 
 
     }
 
@@ -89,21 +83,21 @@ public class cams : MonoBehaviour
         cam2.enabled = false;
         cam3.enabled = false;
         cam4.enabled = false;
-        cam5.enabled = false;
     }
 
+    
     void Update()
     {
 
         if (Input.GetKey(KeyCode.A))
         {
-            getTarget.transform.Rotate(Vector3.up * velocidade * Time.deltaTime);
+            getTarget.transform.Rotate(Vector3.back * velocidade * Time.deltaTime);
 
         }
 
         if (Input.GetKey(KeyCode.D))
         {
-            getTarget.transform.Rotate(-Vector3.up * velocidade * Time.deltaTime);
+            getTarget.transform.Rotate(-Vector3.back * velocidade * Time.deltaTime);
 
         }
 
@@ -114,7 +108,7 @@ public class cams : MonoBehaviour
             getTarget = ReturnClickedObject(out hitInfo);
             if (getTarget != null)
             {
-                transform.Rotate(new Vector3(0, 90, 0));
+                //transform.Rotate(new Vector3(0, 90, 0));
                 isMouseDragging = true;
                 //Converting world position to screen position.
                 positionOfScreen = cam1.WorldToScreenPoint(getTarget.transform.position);
@@ -131,6 +125,7 @@ public class cams : MonoBehaviour
         //Is mouse Moving
         if (isMouseDragging)
         {
+
             //tracking mouse position.
             Vector3 currentScreenSpace = new Vector3(Input.mousePosition.x, Input.mousePosition.y, positionOfScreen.z);
 
@@ -138,9 +133,12 @@ public class cams : MonoBehaviour
             Vector3 currentPosition = cam1.ScreenToWorldPoint(currentScreenSpace) + offsetValue;
 
             //It will update target gameobject's current postion.
-            getTarget.transform.position = currentPosition;
+              getTarget.transform.position = currentPosition;
+            Debug.Log("x " + getTarget.transform.position);
             if (getTarget.tag=="kitaplik")
             {
+                var player = GameObject.FindGameObjectWithTag("kitaplik").transform;
+              //  Debug.Log("x " + player);
                 kitaplik = getTarget;
                 name = kitaplik.ToString();
                
@@ -167,7 +165,8 @@ public class cams : MonoBehaviour
 
 
     }
-    public  void deneme()
+
+    /*public  void deneme()
     {
 
         if (GameObject.FindWithTag("kitaplik") != null)
@@ -181,7 +180,7 @@ public class cams : MonoBehaviour
             StartCoroutine(veriEkle());
         }
 
-    }
+    }*/
 
     //Method to Return Clicked Object
     GameObject ReturnClickedObject(out RaycastHit hit)
@@ -207,7 +206,7 @@ public class cams : MonoBehaviour
 
     
 
-     IEnumerator veriEkle()
+   /*  IEnumerator veriEkle()
   {
       WWWForm form = new WWWForm();
       form.AddField("unity", "nesneEkle");
@@ -241,5 +240,7 @@ public class cams : MonoBehaviour
           }
       }
 
-  }
+  }*/
+
+
 }

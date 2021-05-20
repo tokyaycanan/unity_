@@ -11,9 +11,8 @@ GameObject:
   - component: {fileID: 409950}
   - component: {fileID: 3343958}
   - component: {fileID: 2358840}
-  - component: {fileID: 3556056831734371166}
   - component: {fileID: 1917192432073003083}
-  - component: {fileID: 954568920194735258}
+  - component: {fileID: 2081626822353185062}
   m_Layer: 0
   m_Name: kitaplik
   m_TagString: kitaplik
@@ -84,7 +83,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!54 &3556056831734371166
+--- !u!65 &1917192432073003083
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 113604}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.032293655, y: 0.015057442, z: 0.057760574}
+  m_Center: {x: 0.0000000027939677, y: -0.0017112169, z: 0.028880287}
+--- !u!54 &2081626822353185062
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -100,28 +112,3 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!65 &1917192432073003083
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 113604}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.032293655, y: 0.015057442, z: 0.057760574}
-  m_Center: {x: 0.0000000027939677, y: -0.0017112169, z: 0.028880287}
---- !u!114 &954568920194735258
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 113604}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50a1aac49c3593943867bcbc63676e3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
