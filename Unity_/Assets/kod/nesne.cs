@@ -15,7 +15,7 @@ public class nesne : MonoBehaviour
 
     public GameObject yeniobje;
 
-    public void deneme()
+    public void esyaOlustur()
     {
         yeniobje= Instantiate(ground, transform);
         

@@ -133,9 +133,10 @@ GameObject:
   m_Component:
   - component: {fileID: 11000756}
   - component: {fileID: 11000755}
+  - component: {fileID: 11000757}
   m_Layer: 0
-  m_Name: Bed (1)
-  m_TagString: Untagged
+  m_Name: yatak1
+  m_TagString: yatak1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -168,6 +169,66 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11000757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11000754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 736883418e5d583459da8e43eedab806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam1: {fileID: 1344127874}
+  cam2: {fileID: 945287976}
+  cam3: {fileID: 945287976}
+  cam4: {fileID: 208698783}
+  gen: {fileID: 0}
+  en: {fileID: 0}
+  getTarget: {fileID: 0}
+  kitaplik: {fileID: 0}
+  koltuk1: {fileID: 0}
+  oda: {fileID: 0}
+  chair1: {fileID: 0}
+  chair4: {fileID: 0}
+  chair3: {fileID: 0}
+  coffetable: {fileID: 0}
+  book: {fileID: 0}
+  yatak2: {fileID: 0}
+  koltuk: {fileID: 0}
+  koltuk2: {fileID: 0}
+  koltuk3: {fileID: 0}
+  table: {fileID: 0}
+  mutfakdolabi: {fileID: 0}
+  mutfakdolabi1: {fileID: 0}
+  yatak3: {fileID: 0}
+  yatak1: {fileID: 183180, guid: 21d9d51385e39804281f257f3a9bfab0, type: 3}
+  buzdolabi: {fileID: 0}
+  buzdolabi1: {fileID: 0}
+  coffetable2: {fileID: 0}
+  bitki: {fileID: 0}
+  vazo: {fileID: 0}
+  yeniobje: {fileID: 0}
+  kullaniciAdi: {fileID: 169710211}
+  tasarim: {fileID: 1134310173}
+  veriler:
+  - 
+  - 
+  - 
+  - 
+  tagDizi:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
 --- !u!1 &43711750
 GameObject:
   m_ObjectHideFlags: 0
@@ -178,9 +239,10 @@ GameObject:
   m_Component:
   - component: {fileID: 43711752}
   - component: {fileID: 43711751}
+  - component: {fileID: 43711753}
   m_Layer: 0
   m_Name: Buzdolabi
-  m_TagString: Untagged
+  m_TagString: "buzdolab\u0131"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -213,6 +275,201 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: -90, y: 180, z: 180}
+--- !u!114 &43711753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43711750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 736883418e5d583459da8e43eedab806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam1: {fileID: 1344127874}
+  cam2: {fileID: 945287976}
+  cam3: {fileID: 1169292415}
+  cam4: {fileID: 208698783}
+  gen: {fileID: 0}
+  en: {fileID: 0}
+  getTarget: {fileID: 0}
+  kitaplik: {fileID: 0}
+  koltuk1: {fileID: 0}
+  oda: {fileID: 0}
+  chair1: {fileID: 0}
+  chair4: {fileID: 0}
+  chair3: {fileID: 0}
+  coffetable: {fileID: 0}
+  book: {fileID: 0}
+  yatak2: {fileID: 0}
+  koltuk: {fileID: 0}
+  koltuk2: {fileID: 0}
+  koltuk3: {fileID: 0}
+  table: {fileID: 0}
+  mutfakdolabi: {fileID: 0}
+  mutfakdolabi1: {fileID: 0}
+  yatak3: {fileID: 0}
+  yatak1: {fileID: 0}
+  buzdolabi: {fileID: 118902, guid: cae965229ed2dc64396613399ba974d4, type: 3}
+  buzdolabi1: {fileID: 0}
+  coffetable2: {fileID: 0}
+  bitki: {fileID: 0}
+  vazo: {fileID: 0}
+  yeniobje: {fileID: 0}
+  kullaniciAdi: {fileID: 169710211}
+  tasarim: {fileID: 1134310173}
+  veriler:
+  - 
+  - 
+  - 
+  - 
+  tagDizi:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+--- !u!1 &59189576
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 59189577}
+  - component: {fileID: 59189579}
+  - component: {fileID: 59189578}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &59189577
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59189576}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1405325665}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 5, y: 73}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &59189578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59189576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "Kaydetti\u011Finiz tasar\u0131m\u0131 getirmek i\xE7in bilgileri giriniz
+    :"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294177779
+  m_fontColor: {r: 0.9528302, g: 0.9528302, b: 0.9528302, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 16
+  m_fontSizeBase: 16
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 3
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 1
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &59189579
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59189576}
+  m_CullTransparentMesh: 1
 --- !u!1 &65923408
 GameObject:
   m_ObjectHideFlags: 0
@@ -298,7 +555,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 811896288}
         m_TargetAssemblyTypeName: cams, Assembly-CSharp
-        m_MethodName: deneme1
+        m_MethodName: _koltuk1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -310,7 +567,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1073608887}
         m_TargetAssemblyTypeName: cams, Assembly-CSharp
-        m_MethodName: deneme
+        m_MethodName: _kitaplik
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -323,6 +580,222 @@ MonoBehaviour:
       - m_Target: {fileID: 1131333746}
         m_TargetAssemblyTypeName: cams, Assembly-CSharp
         m_MethodName: odaOlusturD
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 674170161}
+        m_TargetAssemblyTypeName: cams, Assembly-CSharp
+        m_MethodName: _chair1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1529214879}
+        m_TargetAssemblyTypeName: cams, Assembly-CSharp
+        m_MethodName: _chair4
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 391446619}
+        m_TargetAssemblyTypeName: cams, Assembly-CSharp
+        m_MethodName: _chair3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1005530947}
+        m_TargetAssemblyTypeName: cams, Assembly-CSharp
+        m_MethodName: _coffetable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1004416508}
+        m_TargetAssemblyTypeName: cams, Assembly-CSharp
+        m_MethodName: _yatak2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1578324095}
+        m_TargetAssemblyTypeName: cams, Assembly-CSharp
+        m_MethodName: _koltuk
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1922863315}
+        m_TargetAssemblyTypeName: cams, Assembly-CSharp
+        m_MethodName: _koltuk2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 890847183}
+        m_TargetAssemblyTypeName: cams, Assembly-CSharp
+        m_MethodName: _koltuk3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 615475218}
+        m_TargetAssemblyTypeName: cams, Assembly-CSharp
+        m_MethodName: _table
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 999739410}
+        m_TargetAssemblyTypeName: cams, Assembly-CSharp
+        m_MethodName: "_mutfakdolab\u0131"
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1394822015}
+        m_TargetAssemblyTypeName: cams, Assembly-CSharp
+        m_MethodName: "_mutfakdolab\u01311"
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1368834548}
+        m_TargetAssemblyTypeName: cams, Assembly-CSharp
+        m_MethodName: _yatak3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11000757}
+        m_TargetAssemblyTypeName: cams, Assembly-CSharp
+        m_MethodName: _yatak1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 43711753}
+        m_TargetAssemblyTypeName: cams, Assembly-CSharp
+        m_MethodName: "_buzdolab\u0131"
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1418507133}
+        m_TargetAssemblyTypeName: cams, Assembly-CSharp
+        m_MethodName: "_mutfakdolab\u01311"
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1931793193}
+        m_TargetAssemblyTypeName: cams, Assembly-CSharp
+        m_MethodName: _coffetable2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1838834708}
+        m_TargetAssemblyTypeName: cams, Assembly-CSharp
+        m_MethodName: _bitki
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1172708023}
+        m_TargetAssemblyTypeName: cams, Assembly-CSharp
+        m_MethodName: _vazo
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -454,7 +927,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1073608885}
         m_TargetAssemblyTypeName: nesne, Assembly-CSharp
-        m_MethodName: deneme
+        m_MethodName: esyaOlustur
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -683,8 +1156,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.48423532, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -5, y: -29}
-  m_SizeDelta: {x: 204, y: 200}
+  m_AnchoredPosition: {x: -1, y: -0}
+  m_SizeDelta: {x: 215, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &152858428
 MonoBehaviour:
@@ -761,7 +1234,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 38}
+  m_AnchoredPosition: {x: -7, y: 29}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &169710211
@@ -946,6 +1419,138 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 177630057}
   m_CullTransparentMesh: 1
+--- !u!1 &185319455
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 185319456}
+  - component: {fileID: 185319459}
+  - component: {fileID: 185319458}
+  - component: {fileID: 185319457}
+  m_Layer: 5
+  m_Name: Image 21
+  m_TagString: vazo
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &185319456
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185319455}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1178166808}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -8, y: -1132}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &185319457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185319455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 185319458}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1172708024}
+        m_TargetAssemblyTypeName: nesne, Assembly-CSharp
+        m_MethodName: esyaOlustur
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &185319458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185319455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 69ef3f091e10c594a955d83f0d829afc, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &185319459
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185319455}
+  m_CullTransparentMesh: 1
 --- !u!1 &202742900
 GameObject:
   m_ObjectHideFlags: 0
@@ -982,7 +1587,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 63.542, y: 154.35}
+  m_AnchoredPosition: {x: 52, y: -847}
   m_SizeDelta: {x: 30.915, y: 2547}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &202742902
@@ -1028,8 +1633,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 664265670}
   m_HandleRect: {fileID: 664265669}
   m_Direction: 2
-  m_Value: 0.98751587
-  m_Size: 0.30252042
+  m_Value: 0.9555497
+  m_Size: 0.23245004
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1204,7 +1809,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 96, y: -50}
+  m_AnchoredPosition: {x: 99, y: -36}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &274997695
@@ -1227,7 +1832,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Oda \xD6l\xE7\xFClerini Giriniz:\n"
+  m_text: "Tasar\u0131m\u0131n\u0131z\u0131 olu\u015Fturmak i\xE7in oda \xF6l\xE7\xFClerinizi
+    giriniz: "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1260,7 +1866,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 3
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -1290,7 +1896,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 13.171997, y: 0, z: 0, w: 0}
+  m_margin: {x: 6.821199, y: 0, z: -6.3507867, w: -4.1745677}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1374,7 +1980,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enter text...
+  m_Text: "odan\u0131n boyu :"
 --- !u!222 &285047472
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1415,6 +2021,7 @@ RectTransform:
   - {fileID: 1807564264}
   - {fileID: 767892249}
   - {fileID: 788943615}
+  - {fileID: 1254249299}
   m_Father: {fileID: 1505374912}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1475,7 +2082,7 @@ GameObject:
   - component: {fileID: 370550972}
   m_Layer: 5
   m_Name: Image 15
-  m_TagString: Untagged
+  m_TagString: "mutfakdolab\u01311"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1543,9 +2150,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 999739408}
+      - m_Target: {fileID: 1394822013}
         m_TargetAssemblyTypeName: nesne, Assembly-CSharp
-        m_MethodName: deneme
+        m_MethodName: esyaOlustur
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1672,6 +2279,138 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 389240690}
   m_CullTransparentMesh: 1
+--- !u!1 &391184131
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 391184132}
+  - component: {fileID: 391184135}
+  - component: {fileID: 391184134}
+  - component: {fileID: 391184133}
+  m_Layer: 5
+  m_Name: Image 20
+  m_TagString: bitki
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &391184132
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391184131}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1178166808}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -11, y: -989}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &391184133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391184131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 391184134}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1838834709}
+        m_TargetAssemblyTypeName: nesne, Assembly-CSharp
+        m_MethodName: esyaOlustur
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &391184134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391184131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 50e46b651dedca34a88aecc0535c3086, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &391184135
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391184131}
+  m_CullTransparentMesh: 1
 --- !u!1 &391446616
 GameObject:
   m_ObjectHideFlags: 0
@@ -1682,9 +2421,10 @@ GameObject:
   m_Component:
   - component: {fileID: 391446618}
   - component: {fileID: 391446617}
+  - component: {fileID: 391446619}
   m_Layer: 0
-  m_Name: chair (3)
-  m_TagString: Untagged
+  m_Name: chair3
+  m_TagString: chair3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1701,7 +2441,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e47a0ee8ebee0d8499b0caa2687b0ce4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ground: {fileID: 136588, guid: 6f2b08c1ec2e79f4688cdc292da8ff85, type: 3}
+  ground: {fileID: 110168, guid: 094b1ce88c26fa145ae8b34a1712b67e, type: 3}
   yeniobje: {fileID: 0}
 --- !u!4 &391446618
 Transform:
@@ -1717,6 +2457,66 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &391446619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391446616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 736883418e5d583459da8e43eedab806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam1: {fileID: 1344127874}
+  cam2: {fileID: 945287976}
+  cam3: {fileID: 1169292415}
+  cam4: {fileID: 208698783}
+  gen: {fileID: 0}
+  en: {fileID: 0}
+  getTarget: {fileID: 0}
+  kitaplik: {fileID: 0}
+  koltuk1: {fileID: 0}
+  oda: {fileID: 0}
+  chair1: {fileID: 0}
+  chair4: {fileID: 0}
+  chair3: {fileID: 110168, guid: 094b1ce88c26fa145ae8b34a1712b67e, type: 3}
+  coffetable: {fileID: 0}
+  book: {fileID: 0}
+  yatak2: {fileID: 0}
+  koltuk: {fileID: 0}
+  koltuk2: {fileID: 0}
+  koltuk3: {fileID: 0}
+  table: {fileID: 0}
+  mutfakdolabi: {fileID: 0}
+  mutfakdolabi1: {fileID: 0}
+  yatak3: {fileID: 0}
+  yatak1: {fileID: 0}
+  buzdolabi: {fileID: 0}
+  buzdolabi1: {fileID: 0}
+  coffetable2: {fileID: 0}
+  bitki: {fileID: 0}
+  vazo: {fileID: 0}
+  yeniobje: {fileID: 0}
+  kullaniciAdi: {fileID: 169710211}
+  tasarim: {fileID: 1134310173}
+  veriler:
+  - 
+  - 
+  - 
+  - 
+  tagDizi:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
 --- !u!1 &419318249
 GameObject:
   m_ObjectHideFlags: 0
@@ -1753,7 +2553,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 91, y: -130}
+  m_AnchoredPosition: {x: 89.1, y: -169}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &419318251
@@ -1945,7 +2745,7 @@ GameObject:
   - component: {fileID: 580567799}
   m_Layer: 5
   m_Name: Image 19
-  m_TagString: Untagged
+  m_TagString: "buzdolab\u01311"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2015,7 +2815,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1418507131}
         m_TargetAssemblyTypeName: nesne, Assembly-CSharp
-        m_MethodName: deneme
+        m_MethodName: esyaOlustur
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2077,7 +2877,7 @@ GameObject:
   - component: {fileID: 583550812}
   m_Layer: 5
   m_Name: Image 13
-  m_TagString: Untagged
+  m_TagString: table
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2147,7 +2947,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 615475216}
         m_TargetAssemblyTypeName: nesne, Assembly-CSharp
-        m_MethodName: deneme
+        m_MethodName: esyaOlustur
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2205,9 +3005,10 @@ GameObject:
   m_Component:
   - component: {fileID: 615475217}
   - component: {fileID: 615475216}
+  - component: {fileID: 615475218}
   m_Layer: 0
   m_Name: Table
-  m_TagString: Untagged
+  m_TagString: table
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2224,7 +3025,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e47a0ee8ebee0d8499b0caa2687b0ce4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ground: {fileID: 110040, guid: 0051796fd9b1ab54fbd13fdf8d2cd2bb, type: 3}
+  ground: {fileID: 144772, guid: 78c8d34799651084ca96701912d664dc, type: 3}
   yeniobje: {fileID: 0}
 --- !u!4 &615475217
 Transform:
@@ -2240,6 +3041,66 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &615475218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615475215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 736883418e5d583459da8e43eedab806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam1: {fileID: 1344127874}
+  cam2: {fileID: 945287976}
+  cam3: {fileID: 1169292415}
+  cam4: {fileID: 208698783}
+  gen: {fileID: 0}
+  en: {fileID: 0}
+  getTarget: {fileID: 0}
+  kitaplik: {fileID: 0}
+  koltuk1: {fileID: 0}
+  oda: {fileID: 0}
+  chair1: {fileID: 0}
+  chair4: {fileID: 0}
+  chair3: {fileID: 0}
+  coffetable: {fileID: 0}
+  book: {fileID: 0}
+  yatak2: {fileID: 0}
+  koltuk: {fileID: 0}
+  koltuk2: {fileID: 0}
+  koltuk3: {fileID: 0}
+  table: {fileID: 144772, guid: 78c8d34799651084ca96701912d664dc, type: 3}
+  mutfakdolabi: {fileID: 0}
+  mutfakdolabi1: {fileID: 0}
+  yatak3: {fileID: 0}
+  yatak1: {fileID: 0}
+  buzdolabi: {fileID: 0}
+  buzdolabi1: {fileID: 0}
+  coffetable2: {fileID: 0}
+  bitki: {fileID: 0}
+  vazo: {fileID: 0}
+  yeniobje: {fileID: 0}
+  kullaniciAdi: {fileID: 169710211}
+  tasarim: {fileID: 1134310173}
+  veriler:
+  - 
+  - 
+  - 
+  - 
+  tagDizi:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
 --- !u!1 &622573239
 GameObject:
   m_ObjectHideFlags: 0
@@ -2485,9 +3346,10 @@ GameObject:
   m_Component:
   - component: {fileID: 674170160}
   - component: {fileID: 674170159}
+  - component: {fileID: 674170161}
   m_Layer: 0
-  m_Name: chair (1)
-  m_TagString: Untagged
+  m_Name: chair1
+  m_TagString: chair1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2504,7 +3366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e47a0ee8ebee0d8499b0caa2687b0ce4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ground: {fileID: 110168, guid: 094b1ce88c26fa145ae8b34a1712b67e, type: 3}
+  ground: {fileID: 136588, guid: 6f2b08c1ec2e79f4688cdc292da8ff85, type: 3}
   yeniobje: {fileID: 0}
 --- !u!4 &674170160
 Transform:
@@ -2520,6 +3382,66 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &674170161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674170158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 736883418e5d583459da8e43eedab806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam1: {fileID: 1344127874}
+  cam2: {fileID: 945287976}
+  cam3: {fileID: 1169292415}
+  cam4: {fileID: 208698783}
+  gen: {fileID: 0}
+  en: {fileID: 0}
+  getTarget: {fileID: 0}
+  kitaplik: {fileID: 0}
+  koltuk1: {fileID: 0}
+  oda: {fileID: 0}
+  chair1: {fileID: 136588, guid: 6f2b08c1ec2e79f4688cdc292da8ff85, type: 3}
+  chair4: {fileID: 0}
+  chair3: {fileID: 0}
+  coffetable: {fileID: 0}
+  book: {fileID: 0}
+  yatak2: {fileID: 0}
+  koltuk: {fileID: 0}
+  koltuk2: {fileID: 0}
+  koltuk3: {fileID: 0}
+  table: {fileID: 0}
+  mutfakdolabi: {fileID: 0}
+  mutfakdolabi1: {fileID: 0}
+  yatak3: {fileID: 0}
+  yatak1: {fileID: 0}
+  buzdolabi: {fileID: 0}
+  buzdolabi1: {fileID: 0}
+  coffetable2: {fileID: 0}
+  bitki: {fileID: 0}
+  vazo: {fileID: 0}
+  yeniobje: {fileID: 0}
+  kullaniciAdi: {fileID: 169710211}
+  tasarim: {fileID: 1134310173}
+  veriler:
+  - 
+  - 
+  - 
+  - 
+  tagDizi:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
 --- !u!1 &767892248
 GameObject:
   m_ObjectHideFlags: 0
@@ -2557,7 +3479,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -3, y: -12}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &767892250
@@ -2677,7 +3599,7 @@ GameObject:
   - component: {fileID: 768031500}
   m_Layer: 5
   m_Name: Image 16
-  m_TagString: Untagged
+  m_TagString: yatak3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2747,7 +3669,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1368834546}
         m_TargetAssemblyTypeName: nesne, Assembly-CSharp
-        m_MethodName: deneme
+        m_MethodName: esyaOlustur
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2832,7 +3754,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 38}
+  m_AnchoredPosition: {x: -4, y: 23}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &788943616
@@ -3108,8 +4030,8 @@ GameObject:
   - component: {fileID: 811896286}
   - component: {fileID: 811896288}
   m_Layer: 0
-  m_Name: chair
-  m_TagString: Untagged
+  m_Name: koltuk1
+  m_TagString: koltuk1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3126,7 +4048,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e47a0ee8ebee0d8499b0caa2687b0ce4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ground: {fileID: 146980, guid: 2bed2b2c0943e36459952282ba5f7292, type: 3}
+  ground: {fileID: 168558, guid: b006dd3bb62abd14a83157791fb647ec, type: 3}
   yeniobje: {fileID: 0}
 --- !u!4 &811896287
 Transform:
@@ -3162,8 +4084,27 @@ MonoBehaviour:
   en: {fileID: 0}
   getTarget: {fileID: 0}
   kitaplik: {fileID: 0}
-  chair: {fileID: 146980, guid: 2bed2b2c0943e36459952282ba5f7292, type: 3}
+  koltuk1: {fileID: 168558, guid: b006dd3bb62abd14a83157791fb647ec, type: 3}
   oda: {fileID: 0}
+  chair1: {fileID: 0}
+  chair4: {fileID: 0}
+  chair3: {fileID: 0}
+  coffetable: {fileID: 0}
+  book: {fileID: 0}
+  yatak2: {fileID: 0}
+  koltuk: {fileID: 0}
+  koltuk2: {fileID: 0}
+  koltuk3: {fileID: 0}
+  table: {fileID: 0}
+  mutfakdolabi: {fileID: 0}
+  mutfakdolabi1: {fileID: 0}
+  yatak3: {fileID: 0}
+  yatak1: {fileID: 0}
+  buzdolabi: {fileID: 0}
+  buzdolabi1: {fileID: 0}
+  coffetable2: {fileID: 0}
+  bitki: {fileID: 0}
+  vazo: {fileID: 0}
   yeniobje: {fileID: 0}
   kullaniciAdi: {fileID: 169710211}
   tasarim: {fileID: 1134310173}
@@ -3336,9 +4277,10 @@ GameObject:
   m_Component:
   - component: {fileID: 890847182}
   - component: {fileID: 890847181}
+  - component: {fileID: 890847183}
   m_Layer: 0
-  m_Name: Coach (2)
-  m_TagString: Untagged
+  m_Name: koltuk3
+  m_TagString: koltuk3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3371,6 +4313,66 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &890847183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890847180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 736883418e5d583459da8e43eedab806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam1: {fileID: 1344127874}
+  cam2: {fileID: 945287976}
+  cam3: {fileID: 1169292415}
+  cam4: {fileID: 208698783}
+  gen: {fileID: 0}
+  en: {fileID: 0}
+  getTarget: {fileID: 0}
+  kitaplik: {fileID: 0}
+  koltuk1: {fileID: 0}
+  oda: {fileID: 0}
+  chair1: {fileID: 0}
+  chair4: {fileID: 0}
+  chair3: {fileID: 0}
+  coffetable: {fileID: 0}
+  book: {fileID: 0}
+  yatak2: {fileID: 0}
+  koltuk: {fileID: 0}
+  koltuk2: {fileID: 0}
+  koltuk3: {fileID: 127242, guid: 2145aca4677bd374bb41e3f80a5b53d6, type: 3}
+  table: {fileID: 0}
+  mutfakdolabi: {fileID: 0}
+  mutfakdolabi1: {fileID: 0}
+  yatak3: {fileID: 0}
+  yatak1: {fileID: 0}
+  buzdolabi: {fileID: 0}
+  buzdolabi1: {fileID: 0}
+  coffetable2: {fileID: 0}
+  bitki: {fileID: 0}
+  vazo: {fileID: 0}
+  yeniobje: {fileID: 0}
+  kullaniciAdi: {fileID: 169710211}
+  tasarim: {fileID: 1134310173}
+  veriler:
+  - 
+  - 
+  - 
+  - 
+  tagDizi:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
 --- !u!1 &899796080
 GameObject:
   m_ObjectHideFlags: 0
@@ -3385,7 +4387,7 @@ GameObject:
   - component: {fileID: 899796082}
   m_Layer: 5
   m_Name: Image 10
-  m_TagString: Untagged
+  m_TagString: koltuk
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3455,7 +4457,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1578324093}
         m_TargetAssemblyTypeName: nesne, Assembly-CSharp
-        m_MethodName: deneme
+        m_MethodName: esyaOlustur
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3694,9 +4696,10 @@ GameObject:
   m_Component:
   - component: {fileID: 999739409}
   - component: {fileID: 999739408}
+  - component: {fileID: 999739410}
   m_Layer: 0
-  m_Name: Kitchen
-  m_TagString: Untagged
+  m_Name: "mutfakdolab\u0131"
+  m_TagString: "mutfakdolab\u0131"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3729,6 +4732,66 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &999739410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 999739407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 736883418e5d583459da8e43eedab806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam1: {fileID: 1344127874}
+  cam2: {fileID: 945287976}
+  cam3: {fileID: 1169292415}
+  cam4: {fileID: 208698783}
+  gen: {fileID: 0}
+  en: {fileID: 0}
+  getTarget: {fileID: 0}
+  kitaplik: {fileID: 0}
+  koltuk1: {fileID: 0}
+  oda: {fileID: 0}
+  chair1: {fileID: 0}
+  chair4: {fileID: 0}
+  chair3: {fileID: 0}
+  coffetable: {fileID: 0}
+  book: {fileID: 0}
+  yatak2: {fileID: 0}
+  koltuk: {fileID: 0}
+  koltuk2: {fileID: 0}
+  koltuk3: {fileID: 0}
+  table: {fileID: 0}
+  mutfakdolabi: {fileID: 197442, guid: 9a8e2ad0cc8923746b7b5ef3f7c34059, type: 3}
+  mutfakdolabi1: {fileID: 0}
+  yatak3: {fileID: 0}
+  yatak1: {fileID: 0}
+  buzdolabi: {fileID: 0}
+  buzdolabi1: {fileID: 0}
+  coffetable2: {fileID: 0}
+  bitki: {fileID: 0}
+  vazo: {fileID: 0}
+  yeniobje: {fileID: 0}
+  kullaniciAdi: {fileID: 169710211}
+  tasarim: {fileID: 1134310173}
+  veriler:
+  - 
+  - 
+  - 
+  - 
+  tagDizi:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
 --- !u!1 &1004416505
 GameObject:
   m_ObjectHideFlags: 0
@@ -3739,9 +4802,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1004416507}
   - component: {fileID: 1004416506}
+  - component: {fileID: 1004416508}
   m_Layer: 0
-  m_Name: Bed
-  m_TagString: Untagged
+  m_Name: yatak2
+  m_TagString: yatak2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3774,6 +4838,66 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1004416508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1004416505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 736883418e5d583459da8e43eedab806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam1: {fileID: 1344127874}
+  cam2: {fileID: 945287976}
+  cam3: {fileID: 1169292415}
+  cam4: {fileID: 208698783}
+  gen: {fileID: 0}
+  en: {fileID: 0}
+  getTarget: {fileID: 0}
+  kitaplik: {fileID: 0}
+  koltuk1: {fileID: 0}
+  oda: {fileID: 0}
+  chair1: {fileID: 0}
+  chair4: {fileID: 0}
+  chair3: {fileID: 0}
+  coffetable: {fileID: 0}
+  book: {fileID: 0}
+  yatak2: {fileID: 187202, guid: 10efb94c6bff2ac4ead891c26d371ef4, type: 3}
+  koltuk: {fileID: 0}
+  koltuk2: {fileID: 0}
+  koltuk3: {fileID: 0}
+  table: {fileID: 0}
+  mutfakdolabi: {fileID: 0}
+  mutfakdolabi1: {fileID: 0}
+  yatak3: {fileID: 0}
+  yatak1: {fileID: 0}
+  buzdolabi: {fileID: 0}
+  buzdolabi1: {fileID: 0}
+  coffetable2: {fileID: 0}
+  bitki: {fileID: 0}
+  vazo: {fileID: 0}
+  yeniobje: {fileID: 0}
+  kullaniciAdi: {fileID: 169710211}
+  tasarim: {fileID: 1134310173}
+  veriler:
+  - 
+  - 
+  - 
+  - 
+  tagDizi:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
 --- !u!1 &1005530944
 GameObject:
   m_ObjectHideFlags: 0
@@ -3784,9 +4908,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1005530946}
   - component: {fileID: 1005530945}
+  - component: {fileID: 1005530947}
   m_Layer: 0
   m_Name: coffee Table
-  m_TagString: Untagged
+  m_TagString: caffetable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3803,7 +4928,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e47a0ee8ebee0d8499b0caa2687b0ce4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ground: {fileID: 184304, guid: 84b3095a92ec27d448532647a747bbf9, type: 3}
+  ground: {fileID: 110040, guid: 0051796fd9b1ab54fbd13fdf8d2cd2bb, type: 3}
   yeniobje: {fileID: 0}
 --- !u!4 &1005530946
 Transform:
@@ -3819,6 +4944,66 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &1005530947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005530944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 736883418e5d583459da8e43eedab806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam1: {fileID: 1344127874}
+  cam2: {fileID: 945287976}
+  cam3: {fileID: 1169292415}
+  cam4: {fileID: 208698783}
+  gen: {fileID: 0}
+  en: {fileID: 0}
+  getTarget: {fileID: 0}
+  kitaplik: {fileID: 0}
+  koltuk1: {fileID: 0}
+  oda: {fileID: 0}
+  chair1: {fileID: 0}
+  chair4: {fileID: 0}
+  chair3: {fileID: 0}
+  coffetable: {fileID: 110040, guid: 0051796fd9b1ab54fbd13fdf8d2cd2bb, type: 3}
+  book: {fileID: 0}
+  yatak2: {fileID: 0}
+  koltuk: {fileID: 0}
+  koltuk2: {fileID: 0}
+  koltuk3: {fileID: 0}
+  table: {fileID: 0}
+  mutfakdolabi: {fileID: 0}
+  mutfakdolabi1: {fileID: 0}
+  yatak3: {fileID: 0}
+  yatak1: {fileID: 0}
+  buzdolabi: {fileID: 0}
+  buzdolabi1: {fileID: 0}
+  coffetable2: {fileID: 0}
+  bitki: {fileID: 0}
+  vazo: {fileID: 0}
+  yeniobje: {fileID: 0}
+  kullaniciAdi: {fileID: 169710211}
+  tasarim: {fileID: 1134310173}
+  veriler:
+  - 
+  - 
+  - 
+  - 
+  tagDizi:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
 --- !u!1 &1072122962
 GameObject:
   m_ObjectHideFlags: 0
@@ -3833,7 +5018,7 @@ GameObject:
   - component: {fileID: 1072122966}
   m_Layer: 5
   m_Name: Image4
-  m_TagString: Untagged
+  m_TagString: chair1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3941,7 +5126,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 674170159}
         m_TargetAssemblyTypeName: nesne, Assembly-CSharp
-        m_MethodName: deneme
+        m_MethodName: esyaOlustur
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3963,8 +5148,8 @@ GameObject:
   - component: {fileID: 1073608885}
   - component: {fileID: 1073608887}
   m_Layer: 0
-  m_Name: nesne
-  m_TagString: Untagged
+  m_Name: kitaplik
+  m_TagString: kitaplik
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4017,8 +5202,27 @@ MonoBehaviour:
   en: {fileID: 0}
   getTarget: {fileID: 0}
   kitaplik: {fileID: 113604, guid: 08a5f3a4f1a5afa47b54e6eddc350ddc, type: 3}
-  chair: {fileID: 0}
+  koltuk1: {fileID: 0}
   oda: {fileID: 0}
+  chair1: {fileID: 0}
+  chair4: {fileID: 0}
+  chair3: {fileID: 0}
+  coffetable: {fileID: 0}
+  book: {fileID: 0}
+  yatak2: {fileID: 0}
+  koltuk: {fileID: 0}
+  koltuk2: {fileID: 0}
+  koltuk3: {fileID: 0}
+  table: {fileID: 0}
+  mutfakdolabi: {fileID: 0}
+  mutfakdolabi1: {fileID: 0}
+  yatak3: {fileID: 0}
+  yatak1: {fileID: 0}
+  buzdolabi: {fileID: 0}
+  buzdolabi1: {fileID: 0}
+  coffetable2: {fileID: 0}
+  bitki: {fileID: 0}
+  vazo: {fileID: 0}
   yeniobje: {fileID: 0}
   kullaniciAdi: {fileID: 169710211}
   tasarim: {fileID: 1134310173}
@@ -4049,9 +5253,10 @@ GameObject:
   - component: {fileID: 1102893848}
   - component: {fileID: 1102893850}
   - component: {fileID: 1102893849}
+  - component: {fileID: 1102893851}
   m_Layer: 5
   m_Name: Image6
-  m_TagString: Untagged
+  m_TagString: caffetable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4113,6 +5318,62 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1102893847}
   m_CullTransparentMesh: 1
+--- !u!114 &1102893851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102893847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1102893849}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1005530945}
+        m_TargetAssemblyTypeName: nesne, Assembly-CSharp
+        m_MethodName: esyaOlustur
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1131333742
 GameObject:
   m_ObjectHideFlags: 0
@@ -4195,8 +5456,27 @@ MonoBehaviour:
   en: {fileID: 0}
   getTarget: {fileID: 0}
   kitaplik: {fileID: 0}
-  chair: {fileID: 0}
+  koltuk1: {fileID: 0}
   oda: {fileID: 5048222714015361825, guid: ce3a959af1261b246bf507ea32de65b6, type: 3}
+  chair1: {fileID: 0}
+  chair4: {fileID: 0}
+  chair3: {fileID: 0}
+  coffetable: {fileID: 0}
+  book: {fileID: 0}
+  yatak2: {fileID: 0}
+  koltuk: {fileID: 0}
+  koltuk2: {fileID: 0}
+  koltuk3: {fileID: 0}
+  table: {fileID: 0}
+  mutfakdolabi: {fileID: 0}
+  mutfakdolabi1: {fileID: 0}
+  yatak3: {fileID: 0}
+  yatak1: {fileID: 0}
+  buzdolabi: {fileID: 0}
+  buzdolabi1: {fileID: 0}
+  coffetable2: {fileID: 0}
+  bitki: {fileID: 0}
+  vazo: {fileID: 0}
   yeniobje: {fileID: 0}
   kullaniciAdi: {fileID: 169710211}
   tasarim: {fileID: 1134310173}
@@ -4253,7 +5533,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -6, y: -9}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1134310173
@@ -4617,6 +5897,112 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speedH: 2
   speedV: 2
+--- !u!1 &1172708022
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1172708025}
+  - component: {fileID: 1172708024}
+  - component: {fileID: 1172708023}
+  m_Layer: 0
+  m_Name: vazo
+  m_TagString: vazo
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1172708023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1172708022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 736883418e5d583459da8e43eedab806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam1: {fileID: 1344127874}
+  cam2: {fileID: 945287976}
+  cam3: {fileID: 1169292415}
+  cam4: {fileID: 208698783}
+  gen: {fileID: 0}
+  en: {fileID: 0}
+  getTarget: {fileID: 0}
+  kitaplik: {fileID: 0}
+  koltuk1: {fileID: 0}
+  oda: {fileID: 0}
+  chair1: {fileID: 0}
+  chair4: {fileID: 0}
+  chair3: {fileID: 0}
+  coffetable: {fileID: 0}
+  book: {fileID: 0}
+  yatak2: {fileID: 0}
+  koltuk: {fileID: 0}
+  koltuk2: {fileID: 0}
+  koltuk3: {fileID: 0}
+  table: {fileID: 0}
+  mutfakdolabi: {fileID: 0}
+  mutfakdolabi1: {fileID: 0}
+  yatak3: {fileID: 0}
+  yatak1: {fileID: 0}
+  buzdolabi: {fileID: 0}
+  buzdolabi1: {fileID: 0}
+  coffetable2: {fileID: 0}
+  bitki: {fileID: 0}
+  vazo: {fileID: 111804, guid: dcca16ec28ac4b44aa6543de547345bb, type: 3}
+  yeniobje: {fileID: 0}
+  kullaniciAdi: {fileID: 169710211}
+  tasarim: {fileID: 1134310173}
+  veriler:
+  - 
+  - 
+  - 
+  - 
+  tagDizi:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+--- !u!114 &1172708024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1172708022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e47a0ee8ebee0d8499b0caa2687b0ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ground: {fileID: 111804, guid: dcca16ec28ac4b44aa6543de547345bb, type: 3}
+  yeniobje: {fileID: 0}
+--- !u!4 &1172708025
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1172708022}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 474.4636, y: 502.24426, z: 15.929317}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 28
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1178166807
 GameObject:
   m_ObjectHideFlags: 0
@@ -4665,12 +6051,14 @@ RectTransform:
   - {fileID: 1535616097}
   - {fileID: 2057766068}
   - {fileID: 580567798}
+  - {fileID: 391184132}
+  - {fileID: 185319456}
   m_Father: {fileID: 1417561395}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3, y: -1023.9735}
+  m_AnchoredPosition: {x: 6, y: -1052.9575}
   m_SizeDelta: {x: 150, y: 3011.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1178166809
@@ -4725,7 +6113,7 @@ GameObject:
   - component: {fileID: 1215801353}
   m_Layer: 5
   m_Name: Image5
-  m_TagString: Untagged
+  m_TagString: chair4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4833,7 +6221,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1529214877}
         m_TargetAssemblyTypeName: nesne, Assembly-CSharp
-        m_MethodName: deneme
+        m_MethodName: esyaOlustur
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4879,7 +6267,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 93, y: -56}
+  m_AnchoredPosition: {x: 89.2, y: -91}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1230306473
@@ -4975,6 +6363,140 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1230306471}
+  m_CullTransparentMesh: 1
+--- !u!1 &1254249298
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1254249299}
+  - component: {fileID: 1254249301}
+  - component: {fileID: 1254249300}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1254249299
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254249298}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 347608100}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 4, y: 68}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1254249300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254249298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "Tasar\u0131m\u0131n\u0131z\u0131 kaydetmek\ni\xE7in bilgileri giriniz:"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 16
+  m_fontSizeBase: 16
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 1
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1254249301
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254249298}
   m_CullTransparentMesh: 1
 --- !u!1 &1314169568
 GameObject:
@@ -5278,9 +6800,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1368834547}
   - component: {fileID: 1368834546}
+  - component: {fileID: 1368834548}
   m_Layer: 0
-  m_Name: Bed
-  m_TagString: Untagged
+  m_Name: yatak3
+  m_TagString: yatak3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5313,6 +6836,66 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1368834548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368834545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 736883418e5d583459da8e43eedab806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam1: {fileID: 1344127874}
+  cam2: {fileID: 945287976}
+  cam3: {fileID: 1169292415}
+  cam4: {fileID: 208698783}
+  gen: {fileID: 0}
+  en: {fileID: 0}
+  getTarget: {fileID: 0}
+  kitaplik: {fileID: 0}
+  koltuk1: {fileID: 0}
+  oda: {fileID: 0}
+  chair1: {fileID: 0}
+  chair4: {fileID: 0}
+  chair3: {fileID: 0}
+  coffetable: {fileID: 0}
+  book: {fileID: 0}
+  yatak2: {fileID: 0}
+  koltuk: {fileID: 0}
+  koltuk2: {fileID: 0}
+  koltuk3: {fileID: 0}
+  table: {fileID: 0}
+  mutfakdolabi: {fileID: 0}
+  mutfakdolabi1: {fileID: 0}
+  yatak3: {fileID: 110820, guid: f4b6d9b5cf2500e419d8cb4fb82a84eb, type: 3}
+  yatak1: {fileID: 0}
+  buzdolabi: {fileID: 0}
+  buzdolabi1: {fileID: 0}
+  coffetable2: {fileID: 0}
+  bitki: {fileID: 0}
+  vazo: {fileID: 0}
+  yeniobje: {fileID: 0}
+  kullaniciAdi: {fileID: 169710211}
+  tasarim: {fileID: 1134310173}
+  veriler:
+  - 
+  - 
+  - 
+  - 
+  tagDizi:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
 --- !u!1 &1380428964
 GameObject:
   m_ObjectHideFlags: 0
@@ -5514,9 +7097,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1005530945}
+      - m_Target: {fileID: 1931793194}
         m_TargetAssemblyTypeName: nesne, Assembly-CSharp
-        m_MethodName: deneme
+        m_MethodName: esyaOlustur
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5536,9 +7119,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1394822014}
   - component: {fileID: 1394822013}
+  - component: {fileID: 1394822015}
   m_Layer: 0
-  m_Name: Kitchen (1)
-  m_TagString: Untagged
+  m_Name: "mutfakdolab\u01311"
+  m_TagString: "mutfakdolab\u01311"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5571,6 +7155,66 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1394822015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394822012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 736883418e5d583459da8e43eedab806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam1: {fileID: 1344127874}
+  cam2: {fileID: 945287976}
+  cam3: {fileID: 1169292415}
+  cam4: {fileID: 208698783}
+  gen: {fileID: 0}
+  en: {fileID: 0}
+  getTarget: {fileID: 0}
+  kitaplik: {fileID: 0}
+  koltuk1: {fileID: 0}
+  oda: {fileID: 0}
+  chair1: {fileID: 0}
+  chair4: {fileID: 0}
+  chair3: {fileID: 0}
+  coffetable: {fileID: 0}
+  book: {fileID: 0}
+  yatak2: {fileID: 0}
+  koltuk: {fileID: 0}
+  koltuk2: {fileID: 0}
+  koltuk3: {fileID: 0}
+  table: {fileID: 0}
+  mutfakdolabi: {fileID: 0}
+  mutfakdolabi1: {fileID: 102072, guid: e8e3d84b4df91a24892ed822cd330e12, type: 3}
+  yatak3: {fileID: 0}
+  yatak1: {fileID: 0}
+  buzdolabi: {fileID: 0}
+  buzdolabi1: {fileID: 0}
+  coffetable2: {fileID: 0}
+  bitki: {fileID: 0}
+  vazo: {fileID: 0}
+  yeniobje: {fileID: 0}
+  kullaniciAdi: {fileID: 169710211}
+  tasarim: {fileID: 1134310173}
+  veriler:
+  - 
+  - 
+  - 
+  - 
+  tagDizi:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
 --- !u!1 &1405325664
 GameObject:
   m_ObjectHideFlags: 0
@@ -5603,13 +7247,14 @@ RectTransform:
   - {fileID: 65923409}
   - {fileID: 1134310172}
   - {fileID: 169710210}
+  - {fileID: 59189577}
   m_Father: {fileID: 1622759896}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -453, y: 144}
-  m_SizeDelta: {x: 200, y: 200}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 102, y: 56}
+  m_SizeDelta: {x: 210, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1405325666
 MonoBehaviour:
@@ -5687,8 +7332,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -81, y: -479}
-  m_SizeDelta: {x: 153.5984, y: 911.01}
+  m_AnchoredPosition: {x: -94, y: -361}
+  m_SizeDelta: {x: 153.5984, y: 700}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1417561396
 MonoBehaviour:
@@ -5797,7 +7442,7 @@ GameObject:
   - component: {fileID: 1418368974}
   m_Layer: 5
   m_Name: Image 14
-  m_TagString: Untagged
+  m_TagString: "mutfakdolab\u0131"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5867,7 +7512,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 999739408}
         m_TargetAssemblyTypeName: nesne, Assembly-CSharp
-        m_MethodName: deneme
+        m_MethodName: esyaOlustur
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5925,9 +7570,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1418507132}
   - component: {fileID: 1418507131}
+  - component: {fileID: 1418507133}
   m_Layer: 0
-  m_Name: Buzdolabi (1)
-  m_TagString: Untagged
+  m_Name: Buzdolabi1
+  m_TagString: "buzdolab\u01311"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5960,6 +7606,66 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &1418507133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418507130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 736883418e5d583459da8e43eedab806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam1: {fileID: 1344127874}
+  cam2: {fileID: 945287976}
+  cam3: {fileID: 1169292415}
+  cam4: {fileID: 208698783}
+  gen: {fileID: 0}
+  en: {fileID: 0}
+  getTarget: {fileID: 0}
+  kitaplik: {fileID: 0}
+  koltuk1: {fileID: 0}
+  oda: {fileID: 0}
+  chair1: {fileID: 0}
+  chair4: {fileID: 0}
+  chair3: {fileID: 0}
+  coffetable: {fileID: 0}
+  book: {fileID: 0}
+  yatak2: {fileID: 0}
+  koltuk: {fileID: 0}
+  koltuk2: {fileID: 0}
+  koltuk3: {fileID: 0}
+  table: {fileID: 0}
+  mutfakdolabi: {fileID: 0}
+  mutfakdolabi1: {fileID: 0}
+  yatak3: {fileID: 0}
+  yatak1: {fileID: 0}
+  buzdolabi: {fileID: 0}
+  buzdolabi1: {fileID: 112080, guid: 7f58309ce166972478cee4c83a1c91cd, type: 3}
+  coffetable2: {fileID: 0}
+  bitki: {fileID: 0}
+  vazo: {fileID: 0}
+  yeniobje: {fileID: 0}
+  kullaniciAdi: {fileID: 169710211}
+  tasarim: {fileID: 1134310173}
+  veriler:
+  - 
+  - 
+  - 
+  - 
+  tagDizi:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
 --- !u!1 &1422064406
 GameObject:
   m_ObjectHideFlags: 0
@@ -5974,7 +7680,7 @@ GameObject:
   - component: {fileID: 1422064410}
   m_Layer: 5
   m_Name: Image9
-  m_TagString: Untagged
+  m_TagString: yatak2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6082,7 +7788,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1004416506}
         m_TargetAssemblyTypeName: nesne, Assembly-CSharp
-        m_MethodName: deneme
+        m_MethodName: esyaOlustur
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6207,7 +7913,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 90, y: -88}
+  m_AnchoredPosition: {x: 89.1, y: -130}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1458745294
@@ -6341,8 +8047,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 106, y: -86}
-  m_SizeDelta: {x: -211.49707, y: 265.61743}
+  m_AnchoredPosition: {x: 106, y: -106}
+  m_SizeDelta: {x: -211.49707, y: 210}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1505374913
 Animator:
@@ -6415,7 +8121,7 @@ GameObject:
   - component: {fileID: 1508420401}
   m_Layer: 5
   m_Name: Image8
-  m_TagString: Untagged
+  m_TagString: books
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6523,7 +8229,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1827374694}
         m_TargetAssemblyTypeName: nesne, Assembly-CSharp
-        m_MethodName: deneme
+        m_MethodName: esyaOlustur
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6547,7 +8253,7 @@ GameObject:
   - component: {fileID: 1516671248}
   m_Layer: 5
   m_Name: Image3
-  m_TagString: Untagged
+  m_TagString: chair3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6655,7 +8361,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 391446617}
         m_TargetAssemblyTypeName: nesne, Assembly-CSharp
-        m_MethodName: deneme
+        m_MethodName: esyaOlustur
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6675,9 +8381,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1529214878}
   - component: {fileID: 1529214877}
+  - component: {fileID: 1529214879}
   m_Layer: 0
-  m_Name: chair (2)
-  m_TagString: Untagged
+  m_Name: chair4
+  m_TagString: chair4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6710,6 +8417,66 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1529214879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1529214876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 736883418e5d583459da8e43eedab806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam1: {fileID: 1344127874}
+  cam2: {fileID: 945287976}
+  cam3: {fileID: 1169292415}
+  cam4: {fileID: 208698783}
+  gen: {fileID: 0}
+  en: {fileID: 0}
+  getTarget: {fileID: 0}
+  kitaplik: {fileID: 0}
+  koltuk1: {fileID: 0}
+  oda: {fileID: 0}
+  chair1: {fileID: 0}
+  chair4: {fileID: 154478, guid: 90421e262216bf6428b4337235113ed2, type: 3}
+  chair3: {fileID: 0}
+  coffetable: {fileID: 0}
+  book: {fileID: 0}
+  yatak2: {fileID: 0}
+  koltuk: {fileID: 0}
+  koltuk2: {fileID: 0}
+  koltuk3: {fileID: 0}
+  table: {fileID: 0}
+  mutfakdolabi: {fileID: 0}
+  mutfakdolabi1: {fileID: 0}
+  yatak3: {fileID: 0}
+  yatak1: {fileID: 0}
+  buzdolabi: {fileID: 0}
+  buzdolabi1: {fileID: 0}
+  coffetable2: {fileID: 0}
+  bitki: {fileID: 0}
+  vazo: {fileID: 0}
+  yeniobje: {fileID: 0}
+  kullaniciAdi: {fileID: 169710211}
+  tasarim: {fileID: 1134310173}
+  veriler:
+  - 
+  - 
+  - 
+  - 
+  tagDizi:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
 --- !u!1 &1535616096
 GameObject:
   m_ObjectHideFlags: 0
@@ -6724,7 +8491,7 @@ GameObject:
   - component: {fileID: 1535616098}
   m_Layer: 5
   m_Name: Image 17
-  m_TagString: Untagged
+  m_TagString: yatak1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6794,7 +8561,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 11000755}
         m_TargetAssemblyTypeName: nesne, Assembly-CSharp
-        m_MethodName: deneme
+        m_MethodName: esyaOlustur
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6933,9 +8700,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1578324094}
   - component: {fileID: 1578324093}
+  - component: {fileID: 1578324095}
   m_Layer: 0
-  m_Name: Coach
-  m_TagString: Untagged
+  m_Name: koltuk
+  m_TagString: koltuk
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6968,6 +8736,66 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &1578324095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578324092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 736883418e5d583459da8e43eedab806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam1: {fileID: 1344127874}
+  cam2: {fileID: 945287976}
+  cam3: {fileID: 1169292415}
+  cam4: {fileID: 208698783}
+  gen: {fileID: 0}
+  en: {fileID: 0}
+  getTarget: {fileID: 0}
+  kitaplik: {fileID: 0}
+  koltuk1: {fileID: 0}
+  oda: {fileID: 0}
+  chair1: {fileID: 0}
+  chair4: {fileID: 0}
+  chair3: {fileID: 0}
+  coffetable: {fileID: 0}
+  book: {fileID: 0}
+  yatak2: {fileID: 0}
+  koltuk: {fileID: 104078, guid: 57a32613b8338fb46b75889d19358690, type: 3}
+  koltuk2: {fileID: 0}
+  koltuk3: {fileID: 0}
+  table: {fileID: 0}
+  mutfakdolabi: {fileID: 0}
+  mutfakdolabi1: {fileID: 0}
+  yatak3: {fileID: 0}
+  yatak1: {fileID: 0}
+  buzdolabi: {fileID: 0}
+  buzdolabi1: {fileID: 0}
+  coffetable2: {fileID: 0}
+  bitki: {fileID: 0}
+  vazo: {fileID: 0}
+  yeniobje: {fileID: 0}
+  kullaniciAdi: {fileID: 169710211}
+  tasarim: {fileID: 1134310173}
+  veriler:
+  - 
+  - 
+  - 
+  - 
+  tagDizi:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
 --- !u!1 &1622759892
 GameObject:
   m_ObjectHideFlags: 0
@@ -7095,9 +8923,28 @@ MonoBehaviour:
   gen: {fileID: 876777628}
   en: {fileID: 144725312}
   getTarget: {fileID: 0}
-  kitaplik: {fileID: 0}
-  chair: {fileID: 0}
+  kitaplik: {fileID: 113604, guid: 08a5f3a4f1a5afa47b54e6eddc350ddc, type: 3}
+  koltuk1: {fileID: 168558, guid: b006dd3bb62abd14a83157791fb647ec, type: 3}
   oda: {fileID: 5048222714015361825, guid: ce3a959af1261b246bf507ea32de65b6, type: 3}
+  chair1: {fileID: 136588, guid: 6f2b08c1ec2e79f4688cdc292da8ff85, type: 3}
+  chair4: {fileID: 154478, guid: 90421e262216bf6428b4337235113ed2, type: 3}
+  chair3: {fileID: 110168, guid: 094b1ce88c26fa145ae8b34a1712b67e, type: 3}
+  coffetable: {fileID: 110040, guid: 0051796fd9b1ab54fbd13fdf8d2cd2bb, type: 3}
+  book: {fileID: 155586, guid: 4824839bd071a8147b3efd7538332d29, type: 3}
+  yatak2: {fileID: 187202, guid: 10efb94c6bff2ac4ead891c26d371ef4, type: 3}
+  koltuk: {fileID: 104078, guid: 57a32613b8338fb46b75889d19358690, type: 3}
+  koltuk2: {fileID: 117988, guid: eb6a9e1981932144d8dfe0055c6c90f1, type: 3}
+  koltuk3: {fileID: 127242, guid: 2145aca4677bd374bb41e3f80a5b53d6, type: 3}
+  table: {fileID: 144772, guid: 78c8d34799651084ca96701912d664dc, type: 3}
+  mutfakdolabi: {fileID: 197442, guid: 9a8e2ad0cc8923746b7b5ef3f7c34059, type: 3}
+  mutfakdolabi1: {fileID: 102072, guid: e8e3d84b4df91a24892ed822cd330e12, type: 3}
+  yatak3: {fileID: 110820, guid: f4b6d9b5cf2500e419d8cb4fb82a84eb, type: 3}
+  yatak1: {fileID: 183180, guid: 21d9d51385e39804281f257f3a9bfab0, type: 3}
+  buzdolabi: {fileID: 118902, guid: cae965229ed2dc64396613399ba974d4, type: 3}
+  buzdolabi1: {fileID: 112080, guid: 7f58309ce166972478cee4c83a1c91cd, type: 3}
+  coffetable2: {fileID: 184304, guid: 84b3095a92ec27d448532647a747bbf9, type: 3}
+  bitki: {fileID: 161050, guid: 65b6f096056a3644389b3bda6c9e8a80, type: 3}
+  vazo: {fileID: 111804, guid: dcca16ec28ac4b44aa6543de547345bb, type: 3}
   yeniobje: {fileID: 0}
   kullaniciAdi: {fileID: 788943616}
   tasarim: {fileID: 767892250}
@@ -7214,7 +9061,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 811896286}
         m_TargetAssemblyTypeName: nesne, Assembly-CSharp
-        m_MethodName: deneme
+        m_MethodName: esyaOlustur
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7298,7 +9145,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -37}
+  m_AnchoredPosition: {x: -3, y: -54}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1807564265
@@ -7405,9 +9252,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1827374695}
   - component: {fileID: 1827374694}
+  - component: {fileID: 1827374696}
   m_Layer: 0
   m_Name: Book
-  m_TagString: Untagged
+  m_TagString: books
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7440,6 +9288,172 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1827374696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827374693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 736883418e5d583459da8e43eedab806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam1: {fileID: 1344127874}
+  cam2: {fileID: 945287976}
+  cam3: {fileID: 1169292415}
+  cam4: {fileID: 208698783}
+  gen: {fileID: 0}
+  en: {fileID: 0}
+  getTarget: {fileID: 0}
+  kitaplik: {fileID: 0}
+  koltuk1: {fileID: 0}
+  oda: {fileID: 0}
+  chair1: {fileID: 0}
+  chair4: {fileID: 0}
+  chair3: {fileID: 0}
+  coffetable: {fileID: 0}
+  book: {fileID: 155586, guid: 4824839bd071a8147b3efd7538332d29, type: 3}
+  yatak2: {fileID: 0}
+  koltuk: {fileID: 0}
+  koltuk2: {fileID: 0}
+  koltuk3: {fileID: 0}
+  table: {fileID: 0}
+  mutfakdolabi: {fileID: 0}
+  mutfakdolabi1: {fileID: 0}
+  yatak3: {fileID: 0}
+  yatak1: {fileID: 0}
+  buzdolabi: {fileID: 0}
+  buzdolabi1: {fileID: 0}
+  coffetable2: {fileID: 0}
+  bitki: {fileID: 0}
+  vazo: {fileID: 0}
+  yeniobje: {fileID: 0}
+  kullaniciAdi: {fileID: 169710211}
+  tasarim: {fileID: 1134310173}
+  veriler:
+  - 
+  - 
+  - 
+  - 
+  tagDizi:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+--- !u!1 &1838834707
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1838834710}
+  - component: {fileID: 1838834709}
+  - component: {fileID: 1838834708}
+  m_Layer: 0
+  m_Name: bitki
+  m_TagString: bitki
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1838834708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838834707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 736883418e5d583459da8e43eedab806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam1: {fileID: 1344127874}
+  cam2: {fileID: 945287976}
+  cam3: {fileID: 1169292415}
+  cam4: {fileID: 208698783}
+  gen: {fileID: 0}
+  en: {fileID: 0}
+  getTarget: {fileID: 0}
+  kitaplik: {fileID: 0}
+  koltuk1: {fileID: 0}
+  oda: {fileID: 0}
+  chair1: {fileID: 0}
+  chair4: {fileID: 0}
+  chair3: {fileID: 0}
+  coffetable: {fileID: 0}
+  book: {fileID: 0}
+  yatak2: {fileID: 0}
+  koltuk: {fileID: 0}
+  koltuk2: {fileID: 0}
+  koltuk3: {fileID: 0}
+  table: {fileID: 0}
+  mutfakdolabi: {fileID: 0}
+  mutfakdolabi1: {fileID: 0}
+  yatak3: {fileID: 0}
+  yatak1: {fileID: 0}
+  buzdolabi: {fileID: 0}
+  buzdolabi1: {fileID: 0}
+  coffetable2: {fileID: 0}
+  bitki: {fileID: 161050, guid: 65b6f096056a3644389b3bda6c9e8a80, type: 3}
+  vazo: {fileID: 0}
+  yeniobje: {fileID: 0}
+  kullaniciAdi: {fileID: 169710211}
+  tasarim: {fileID: 1134310173}
+  veriler:
+  - 
+  - 
+  - 
+  - 
+  tagDizi:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+--- !u!114 &1838834709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838834707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e47a0ee8ebee0d8499b0caa2687b0ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ground: {fileID: 161050, guid: 65b6f096056a3644389b3bda6c9e8a80, type: 3}
+  yeniobje: {fileID: 0}
+--- !u!4 &1838834710
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838834707}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 474.4636, y: 502.24426, z: 15.929317}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 27
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1844433597
 GameObject:
   m_ObjectHideFlags: 0
@@ -7454,7 +9468,7 @@ GameObject:
   - component: {fileID: 1844433599}
   m_Layer: 5
   m_Name: Image 12
-  m_TagString: Untagged
+  m_TagString: koltuk3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7524,7 +9538,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 890847181}
         m_TargetAssemblyTypeName: nesne, Assembly-CSharp
-        m_MethodName: deneme
+        m_MethodName: esyaOlustur
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7667,7 +9681,7 @@ GameObject:
   - component: {fileID: 1866917518}
   m_Layer: 5
   m_Name: Image 11
-  m_TagString: Untagged
+  m_TagString: koltuk2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7737,7 +9751,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1922863313}
         m_TargetAssemblyTypeName: nesne, Assembly-CSharp
-        m_MethodName: deneme
+        m_MethodName: esyaOlustur
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7795,9 +9809,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1922863314}
   - component: {fileID: 1922863313}
+  - component: {fileID: 1922863315}
   m_Layer: 0
-  m_Name: Coach (1)
-  m_TagString: Untagged
+  m_Name: koltuk2
+  m_TagString: koltuk2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7830,6 +9845,172 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &1922863315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922863312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 736883418e5d583459da8e43eedab806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam1: {fileID: 1344127874}
+  cam2: {fileID: 945287976}
+  cam3: {fileID: 1169292415}
+  cam4: {fileID: 208698783}
+  gen: {fileID: 0}
+  en: {fileID: 0}
+  getTarget: {fileID: 0}
+  kitaplik: {fileID: 0}
+  koltuk1: {fileID: 0}
+  oda: {fileID: 0}
+  chair1: {fileID: 0}
+  chair4: {fileID: 0}
+  chair3: {fileID: 0}
+  coffetable: {fileID: 0}
+  book: {fileID: 0}
+  yatak2: {fileID: 0}
+  koltuk: {fileID: 0}
+  koltuk2: {fileID: 117988, guid: eb6a9e1981932144d8dfe0055c6c90f1, type: 3}
+  koltuk3: {fileID: 0}
+  table: {fileID: 0}
+  mutfakdolabi: {fileID: 0}
+  mutfakdolabi1: {fileID: 0}
+  yatak3: {fileID: 0}
+  yatak1: {fileID: 0}
+  buzdolabi: {fileID: 0}
+  buzdolabi1: {fileID: 0}
+  coffetable2: {fileID: 0}
+  bitki: {fileID: 0}
+  vazo: {fileID: 0}
+  yeniobje: {fileID: 0}
+  kullaniciAdi: {fileID: 169710211}
+  tasarim: {fileID: 1134310173}
+  veriler:
+  - 
+  - 
+  - 
+  - 
+  tagDizi:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+--- !u!1 &1931793192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1931793195}
+  - component: {fileID: 1931793194}
+  - component: {fileID: 1931793193}
+  m_Layer: 0
+  m_Name: coffetable2
+  m_TagString: coffetable2
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1931793193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931793192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 736883418e5d583459da8e43eedab806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam1: {fileID: 1344127874}
+  cam2: {fileID: 945287976}
+  cam3: {fileID: 1169292415}
+  cam4: {fileID: 208698783}
+  gen: {fileID: 0}
+  en: {fileID: 0}
+  getTarget: {fileID: 0}
+  kitaplik: {fileID: 0}
+  koltuk1: {fileID: 0}
+  oda: {fileID: 0}
+  chair1: {fileID: 0}
+  chair4: {fileID: 0}
+  chair3: {fileID: 0}
+  coffetable: {fileID: 0}
+  book: {fileID: 0}
+  yatak2: {fileID: 0}
+  koltuk: {fileID: 0}
+  koltuk2: {fileID: 0}
+  koltuk3: {fileID: 0}
+  table: {fileID: 0}
+  mutfakdolabi: {fileID: 0}
+  mutfakdolabi1: {fileID: 0}
+  yatak3: {fileID: 0}
+  yatak1: {fileID: 0}
+  buzdolabi: {fileID: 0}
+  buzdolabi1: {fileID: 0}
+  coffetable2: {fileID: 184304, guid: 84b3095a92ec27d448532647a747bbf9, type: 3}
+  bitki: {fileID: 0}
+  vazo: {fileID: 0}
+  yeniobje: {fileID: 0}
+  kullaniciAdi: {fileID: 169710211}
+  tasarim: {fileID: 1134310173}
+  veriler:
+  - 
+  - 
+  - 
+  - 
+  tagDizi:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+--- !u!114 &1931793194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931793192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e47a0ee8ebee0d8499b0caa2687b0ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ground: {fileID: 184304, guid: 84b3095a92ec27d448532647a747bbf9, type: 3}
+  yeniobje: {fileID: 0}
+--- !u!4 &1931793195
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931793192}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 474.4636, y: 502.24426, z: 15.929317}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1945928029
 GameObject:
   m_ObjectHideFlags: 0
@@ -8122,7 +10303,7 @@ GameObject:
   - component: {fileID: 2057766069}
   m_Layer: 5
   m_Name: Image 18
-  m_TagString: Untagged
+  m_TagString: "buzdolab\u0131"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8192,7 +10373,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 43711751}
         m_TargetAssemblyTypeName: nesne, Assembly-CSharp
-        m_MethodName: deneme
+        m_MethodName: esyaOlustur
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8276,7 +10457,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 90, y: -21}
+  m_AnchoredPosition: {x: 90, y: -55}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2086055894
@@ -8505,7 +10686,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enter text...
+  m_Text: "odan\u0131n eni :"
 --- !u!222 &2122786581
 CanvasRenderer:
   m_ObjectHideFlags: 0

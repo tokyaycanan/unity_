@@ -7,6 +7,35 @@ TagManager:
   - kitaplik
   - chair
   - oda
+  - koltuk1
+  - chair1
+  - chair2
+  - caffetable
+  - coffetable2
+  - coffetable3
+  - koltuk
+  - koltuk2
+  - koltuk3
+  - chair3
+  - chair4
+  - chair5
+  - chair6
+  - koltuk4
+  - bitki
+  - "mutfakdolab\u0131"
+  - "mutfakdolab\u01311"
+  - minder
+  - minder1
+  - yatak1
+  - yatak2
+  - yatak3
+  - "buzdolab\u0131"
+  - "buzdolab\u01311"
+  - vazo
+  - vazo1
+  - table
+  - books
+  - coffetable
   layers:
   - Default
   - TransparentFX

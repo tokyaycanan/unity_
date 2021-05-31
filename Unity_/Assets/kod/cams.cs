@@ -17,8 +17,29 @@ public class cams : MonoBehaviour
 
     public GameObject getTarget;
     public GameObject kitaplik;
-    public GameObject chair;
+    public GameObject koltuk1;
     public GameObject oda;
+    public GameObject chair1;
+    public GameObject chair4;
+    public GameObject chair3;
+    public GameObject coffetable;
+    public GameObject book;
+    public GameObject yatak2;
+    public GameObject koltuk;
+    public GameObject koltuk2;
+    public GameObject koltuk3;
+    public GameObject table;
+    public GameObject mutfakdolabi;
+    public GameObject mutfakdolabi1;
+    public GameObject yatak3;
+    public GameObject yatak1;
+    public GameObject buzdolabi;
+    public GameObject buzdolabi1;
+    public GameObject coffetable2;
+    public GameObject bitki;
+    public GameObject vazo;
+
+
     bool isMouseDragging;
     Vector3 offsetValue;
     Vector3 positionOfScreen;
@@ -91,13 +112,13 @@ public class cams : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKey("right"))
         {
             getTarget.transform.Rotate(Vector3.back * velocidade * Time.deltaTime);
 
         }
 
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey("left"))
         {
             getTarget.transform.Rotate(-Vector3.back * velocidade * Time.deltaTime);
 
@@ -145,22 +166,155 @@ public class cams : MonoBehaviour
                
 
             }
-            if (getTarget.tag == "chair")
+            if (getTarget.tag == "koltuk1")
             {
-                chair = getTarget;
-                name = chair.ToString();
+                koltuk1 = getTarget;
+                name = koltuk1.ToString();
                
 
             }
-
-           
-          /*  Debug.Log("position : " + kitaplik.transform.position);
-            if (GameObject.FindWithTag("chair")!=null)
+            if (getTarget.tag == "chair1")
             {
-                Debug.Log("position : " + chair.transform.position);
+                chair1 = getTarget;
+                name = chair1.ToString();
+
+
             }
-            */
-           
+            if (getTarget.tag == "chair4")
+            {
+                chair4 = getTarget;
+                name = chair4.ToString();
+
+
+            }
+            if (getTarget.tag == "chair3")
+            {
+                chair3 = getTarget;
+                name = chair3.ToString();
+
+
+            }
+            if (getTarget.tag == "coffetable")
+            {
+                coffetable = getTarget;
+                name = coffetable.ToString();
+
+
+            }
+            if (getTarget.tag == "books")
+            {
+                book = getTarget;
+                name = book.ToString();
+
+
+            }
+            if (getTarget.tag == "yatak2")
+            {
+                yatak2 = getTarget;
+                name = yatak2.ToString();
+
+
+            }
+            if (getTarget.tag == "koltuk")
+            {
+                koltuk = getTarget;
+                name = koltuk.ToString();
+
+
+            }
+            if (getTarget.tag == "koltuk2")
+            {
+                koltuk2 = getTarget;
+                name = koltuk2.ToString();
+
+
+            }
+            if (getTarget.tag == "koltuk3")
+            {
+                koltuk3 = getTarget;
+                name = koltuk3.ToString();
+
+
+            }
+            if (getTarget.tag == "table")
+            {
+                table = getTarget;
+                name = table.ToString();
+
+
+            }
+            if (getTarget.tag == "mutfakdolabý")
+            {
+                mutfakdolabi = getTarget;
+                name = mutfakdolabi.ToString();
+
+
+            }
+            if (getTarget.tag == "mutfakdolabý1")
+            {
+                mutfakdolabi1 = getTarget;
+                name = mutfakdolabi1.ToString();
+
+
+            }
+            if (getTarget.tag == "yatak3")
+            {
+                yatak3 = getTarget;
+                name = yatak3.ToString();
+
+
+            }
+            if (getTarget.tag == "yatak1")
+            {
+                yatak1 = getTarget;
+                name = yatak1.ToString();
+
+
+            }
+            if (getTarget.tag == "buzdolabý")
+            {
+                buzdolabi = getTarget;
+                name = buzdolabi.ToString();
+
+
+            }
+            if (getTarget.tag == "buzdolabý1")
+            {
+                buzdolabi1 = getTarget;
+                name = buzdolabi1.ToString();
+
+
+            }
+            if (getTarget.tag == "coffetable2")
+            {
+                coffetable2 = getTarget;
+                name = coffetable2.ToString();
+
+
+            }
+            if (getTarget.tag == "bitki")
+            {
+                bitki = getTarget;
+                name = bitki.ToString();
+
+
+            }
+            if (getTarget.tag == "vazo")
+            {
+                vazo = getTarget;
+                name = vazo.ToString();
+
+
+            }
+
+
+            /*  Debug.Log("position : " + kitaplik.transform.position);
+              if (GameObject.FindWithTag("chair")!=null)
+              {
+                  Debug.Log("position : " + chair.transform.position);
+              }
+              */
+
 
         }
 
@@ -175,15 +329,110 @@ public class cams : MonoBehaviour
             yeniobje = kitaplik;
             StartCoroutine(veriEkle());
         }
-        if (GameObject.FindWithTag("chair") != null)
+        if (GameObject.FindWithTag("koltuk1") != null)
         {
-            yeniobje = chair;
+            yeniobje = koltuk1;
             StartCoroutine(veriEkle());
         }
         if (GameObject.FindWithTag("oda") != null)
         {
             yeniobje = oda;
             StartCoroutine(odaEkle());
+        }
+        if (GameObject.FindWithTag("chair1") != null)
+        {
+            yeniobje = chair1;
+            StartCoroutine(veriEkle());
+        }
+        if (GameObject.FindWithTag("chair4") != null)
+        {
+            yeniobje = chair4;
+            StartCoroutine(veriEkle());
+        }
+        if (GameObject.FindWithTag("chair3") != null)
+        {
+            yeniobje = chair3;
+            StartCoroutine(veriEkle());
+        }
+        if (GameObject.FindWithTag("coffetable") != null)
+        {
+            yeniobje = coffetable;
+            StartCoroutine(veriEkle());
+        }
+        if (GameObject.FindWithTag("books") != null)
+        {
+            yeniobje = book;
+            StartCoroutine(veriEkle());
+        }
+        if (GameObject.FindWithTag("yatak2") != null)
+        {
+            yeniobje = yatak2;
+            StartCoroutine(veriEkle());
+        }
+        if (GameObject.FindWithTag("koltuk") != null)
+        {
+            yeniobje = koltuk;
+            StartCoroutine(veriEkle());
+        }
+        if (GameObject.FindWithTag("koltuk2") != null)
+        {
+            yeniobje = koltuk2;
+            StartCoroutine(veriEkle());
+        }
+        if (GameObject.FindWithTag("koltuk3") != null)
+        {
+            yeniobje = koltuk3;
+            StartCoroutine(veriEkle());
+        }
+        if (GameObject.FindWithTag("table") != null)
+        {
+            yeniobje = table;
+            StartCoroutine(veriEkle());
+        }
+        if (GameObject.FindWithTag("mutfakdolabý") != null)
+        {
+            yeniobje = mutfakdolabi;
+            StartCoroutine(veriEkle());
+        }
+        if (GameObject.FindWithTag("mutfakdolabý1") != null)
+        {
+            yeniobje = mutfakdolabi1;
+            StartCoroutine(veriEkle());
+        }
+        if (GameObject.FindWithTag("yatak3") != null)
+        {
+            yeniobje = yatak3;
+            StartCoroutine(veriEkle());
+        }
+        if (GameObject.FindWithTag("yatak1") != null)
+        {
+            yeniobje = yatak1;
+            StartCoroutine(veriEkle());
+        }
+        if (GameObject.FindWithTag("buzdolabý") != null)
+        {
+            yeniobje = buzdolabi;
+            StartCoroutine(veriEkle());
+        }
+        if (GameObject.FindWithTag("buzdolabý1") != null)
+        {
+            yeniobje = buzdolabi1;
+            StartCoroutine(veriEkle());
+        }
+        if (GameObject.FindWithTag("coffetable2") != null)
+        {
+            yeniobje = coffetable2;
+            StartCoroutine(veriEkle());
+        }
+        if (GameObject.FindWithTag("bitki") != null)
+        {
+            yeniobje = bitki;
+            StartCoroutine(veriEkle());
+        }
+        if (GameObject.FindWithTag("vazo") != null)
+        {
+            yeniobje = vazo;
+            StartCoroutine(veriEkle());
         }
     }
     public void odaOlusturD()
@@ -199,7 +448,7 @@ public class cams : MonoBehaviour
             StartCoroutine(veriCek());
         }
     }
-    public void deneme()
+    public void _kitaplik()
     {
         tag = "kitaplik";
         StartCoroutine(tagCekme());
@@ -212,24 +461,267 @@ public class cams : MonoBehaviour
             StartCoroutine(veriCek());
         }
     }
-    public void deneme1()
+    public void _koltuk1()
     {
-        tag = "chair";
+        tag = "koltuk1";
         StartCoroutine(tagCekme());
-        string index = Array.Find(tagDizi, e => e.Contains("chair"));
+        string index = Array.Find(tagDizi, e => e.Contains("koltuk1"));
        
         if (index != null)
         {
             
-            yeniobje = Instantiate(chair, transform);
+            yeniobje = Instantiate(koltuk1, transform);
             StartCoroutine(veriCek());
         }
-
-      
-
     }
 
+    public void _chair1()
+    {
+        tag = "chair1";
+        StartCoroutine(tagCekme());
+        string index = Array.Find(tagDizi, e => e.Contains("chair1"));
 
+        if (index != null)
+        {
+
+            yeniobje = Instantiate(chair1, transform);
+            StartCoroutine(veriCek());
+        }
+    }
+    public void _chair4()
+    {
+        tag = "chair4";
+        StartCoroutine(tagCekme());
+        string index = Array.Find(tagDizi, e => e.Contains("chair4"));
+
+        if (index != null)
+        {
+
+            yeniobje = Instantiate(chair4, transform);
+            StartCoroutine(veriCek());
+        }
+    }
+    public void _chair3()
+    {
+        tag = "chair3";
+        StartCoroutine(tagCekme());
+        string index = Array.Find(tagDizi, e => e.Contains("chair3"));
+
+        if (index != null)
+        {
+
+            yeniobje = Instantiate(chair3, transform);
+            StartCoroutine(veriCek());
+        }
+    }
+    public void _coffetable()
+    {
+        tag = "coffetable";
+        StartCoroutine(tagCekme());
+        string index = Array.Find(tagDizi, e => e.Contains("coffetable"));
+
+        if (index != null)
+        {
+
+            yeniobje = Instantiate(coffetable, transform);
+            StartCoroutine(veriCek());
+        }
+    }
+    public void _book()
+    {
+        tag = "books";
+        StartCoroutine(tagCekme());
+        string index = Array.Find(tagDizi, e => e.Contains("books"));
+
+        if (index != null)
+        {
+
+            yeniobje = Instantiate(book, transform);
+            StartCoroutine(veriCek());
+        }
+    }
+    public void _yatak2()
+    {
+        tag = "yatak2";
+        StartCoroutine(tagCekme());
+        string index = Array.Find(tagDizi, e => e.Contains("yatak2"));
+
+        if (index != null)
+        {
+
+            yeniobje = Instantiate(yatak2, transform);
+            StartCoroutine(veriCek());
+        }
+    }
+    public void _koltuk()
+    {
+        tag = "koltuk";
+        StartCoroutine(tagCekme());
+        string index = Array.Find(tagDizi, e => e.Contains("koltuk"));
+
+        if (index != null)
+        {
+
+            yeniobje = Instantiate(koltuk, transform);
+            StartCoroutine(veriCek());
+        }
+    }
+    public void _koltuk2()
+    {
+        tag = "koltuk2";
+        StartCoroutine(tagCekme());
+        string index = Array.Find(tagDizi, e => e.Contains("koltuk2"));
+
+        if (index != null)
+        {
+
+            yeniobje = Instantiate(koltuk2, transform);
+            StartCoroutine(veriCek());
+        }
+    }
+    public void _koltuk3()
+    {
+        tag = "koltuk3";
+        StartCoroutine(tagCekme());
+        string index = Array.Find(tagDizi, e => e.Contains("koltuk3"));
+
+        if (index != null)
+        {
+
+            yeniobje = Instantiate(koltuk3, transform);
+            StartCoroutine(veriCek());
+        }
+    }
+    public void _table()
+    {
+        tag = "table";
+        StartCoroutine(tagCekme());
+        string index = Array.Find(tagDizi, e => e.Contains("table"));
+
+        if (index != null)
+        {
+
+            yeniobje = Instantiate(table, transform);
+            StartCoroutine(veriCek());
+        }
+    }
+    public void _mutfakdolabý()
+    {
+        tag = "mutfakdolabý";
+        StartCoroutine(tagCekme());
+        string index = Array.Find(tagDizi, e => e.Contains("mutfakdolabý"));
+
+        if (index != null)
+        {
+
+            yeniobje = Instantiate(mutfakdolabi, transform);
+            StartCoroutine(veriCek());
+        }
+    }
+    public void _mutfakdolabý1()
+    {
+        tag = "mutfakdolabý1";
+        StartCoroutine(tagCekme());
+        string index = Array.Find(tagDizi, e => e.Contains("mutfakdolabý1"));
+
+        if (index != null)
+        {
+
+            yeniobje = Instantiate(mutfakdolabi1, transform);
+            StartCoroutine(veriCek());
+        }
+    }
+    public void _yatak3()
+    {
+        tag = "yatak3";
+        StartCoroutine(tagCekme());
+        string index = Array.Find(tagDizi, e => e.Contains("yatak3"));
+
+        if (index != null)
+        {
+
+            yeniobje = Instantiate(yatak3, transform);
+            StartCoroutine(veriCek());
+        }
+    }
+    public void _yatak1()
+    {
+        tag = "yatak1";
+        StartCoroutine(tagCekme());
+        string index = Array.Find(tagDizi, e => e.Contains("yatak1"));
+
+        if (index != null)
+        {
+
+            yeniobje = Instantiate(yatak1, transform);
+            StartCoroutine(veriCek());
+        }
+    }
+    public void _buzdolabý()
+    {
+        tag = "buzdolabý";
+        StartCoroutine(tagCekme());
+        string index = Array.Find(tagDizi, e => e.Contains("buzdolabý"));
+
+        if (index != null)
+        {
+
+            yeniobje = Instantiate(buzdolabi, transform);
+            StartCoroutine(veriCek());
+        }
+    }
+    public void _buzdolabý1()
+    {
+        tag = "buzdolabý1";
+        StartCoroutine(tagCekme());
+        string index = Array.Find(tagDizi, e => e.Contains("buzdolabý1"));
+
+        if (index != null)
+        {
+
+            yeniobje = Instantiate(buzdolabi1, transform);
+            StartCoroutine(veriCek());
+        }
+    }
+    public void _coffetable2()
+    {
+        tag = "coffetable2";
+        StartCoroutine(tagCekme());
+        string index = Array.Find(tagDizi, e => e.Contains("coffetable2"));
+
+        if (index != null)
+        {
+
+            yeniobje = Instantiate(coffetable2, transform);
+            StartCoroutine(veriCek());
+        }
+    }
+    public void _bitki()
+    {
+        tag = "bitki";
+        StartCoroutine(tagCekme());
+        string index = Array.Find(tagDizi, e => e.Contains("bitki"));
+
+        if (index != null)
+        {
+
+            yeniobje = Instantiate(bitki, transform);
+            StartCoroutine(veriCek());
+        }
+    }
+    public void _vazo()
+    {
+        tag = "vazo";
+        StartCoroutine(tagCekme());
+        string index = Array.Find(tagDizi, e => e.Contains("vazo"));
+
+        if (index != null)
+        {
+
+            yeniobje = Instantiate(vazo, transform);
+            StartCoroutine(veriCek());
+        }
+    }
 
 
     //Method to Return Clicked Object
@@ -261,13 +753,14 @@ public class cams : MonoBehaviour
         WWWForm form = new WWWForm();
         form.AddField("unity", "nesneCekme");
         form.AddField("kullaniciAdi", kullaniciAdi.text);
+       // form.AddField("tasarim", tasarim.text);
         form.AddField("tag", tag);
 
         WWW data = new WWW("http://localhost/unity_DB/userRegister.php", form);
 
         yield return data;
 
-        Debug.Log( "deneme " +data.text);
+       // Debug.Log( "deneme " +data.text);
         veriler = data.text.Split(';');
         nesneTag = veriler[0];
         konumX = veriler[1];
@@ -285,13 +778,6 @@ public class cams : MonoBehaviour
 
         yeniobje.transform.localPosition = new Vector3(X, Y, Z);
         yeniobje.tag = nesneTag;
-
-
-        Debug.Log(data.text);
-      /*  Debug.Log(X.ToString());
-        Debug.Log(Y.ToString());
-        Debug.Log(Z.ToString());*/
-
     }
 
 
@@ -300,6 +786,7 @@ public class cams : MonoBehaviour
         WWWForm form = new WWWForm();
         form.AddField("unity", "nesneCekme");
         form.AddField("kullaniciAdi", kullaniciAdi.text);
+        //form.AddField("tasarim", tasarim.text);
         form.AddField("tag", tag);
 
         WWW data = new WWW("http://localhost/unity_DB/userRegister.php", form);
@@ -329,19 +816,12 @@ public class cams : MonoBehaviour
         WWWForm form = new WWWForm();
         form.AddField("unity", "tagCekme");
         form.AddField("kullaniciAdi", kullaniciAdi.text);
-       // form.AddField("tag", tag);
-
+      //  form.AddField("tasarim", tasarim.text);
+      
         WWW data = new WWW("http://localhost/unity_DB/userRegister.php", form);
 
         yield return data;
         tagDizi = data.text.Split(';');
-
-    
-
-
-       Debug.Log(tagDizi[0]);
-      
-
 
     }
     IEnumerator odaEkle()
@@ -349,6 +829,7 @@ public class cams : MonoBehaviour
         WWWForm form = new WWWForm();
         form.AddField("unity", "odaEkle");
         form.AddField("kullaniciAdi", kullaniciAdi.text);
+        form.AddField("tasarim", tasarim.text);
         form.AddField("konumX", en.text);
         form.AddField("konumY", gen.text);
         nesneTag = yeniobje.tag;
@@ -371,40 +852,43 @@ public class cams : MonoBehaviour
     }
 
     IEnumerator veriEkle()
-  {
-      WWWForm form = new WWWForm();
-      form.AddField("unity", "nesneEkle");
-      form.AddField("kullaniciAdi", kullaniciAdi.text);
-      scale = yeniobje.transform.localPosition;
-      X = scale.x;
-      Y = scale.y;
-      Z = scale.z;
-      Debug.Log(scale);
-      nesneTag = yeniobje.tag;
-      konumX = X.ToString();
-      konumY = Y.ToString();
-      konumZ = Z.ToString();
+    {
+        WWWForm form = new WWWForm();
+        form.AddField("unity", "nesneEkle");
+        form.AddField("kullaniciAdi", kullaniciAdi.text);
+        form.AddField("tasarim", tasarim.text);
+        scale = yeniobje.transform.localPosition;
+        X = scale.x;
+        Y = scale.y;
+        Z = scale.z;
+        Debug.Log(scale);
+        nesneTag = yeniobje.tag;
+        konumX = X.ToString();
+        konumY = Y.ToString();
+        konumZ = Z.ToString();
+        if (konumY != "0" )
+        {
+            form.AddField("nesneTag", nesneTag);
+            form.AddField("konumX", konumX);
+            form.AddField("konumY", konumY);
+            form.AddField("konumZ", konumZ);
+            using (UnityWebRequest www = UnityWebRequest.Post("http://localhost/unity_DB/userRegister.php", form))
+            {
+                yield return www.SendWebRequest();
 
-      form.AddField("nesneTag", nesneTag);
-      form.AddField("konumX", konumX);
-      form.AddField("konumY", konumY);
-      form.AddField("konumZ", konumZ);
-      using (UnityWebRequest www = UnityWebRequest.Post("http://localhost/unity_DB/userRegister.php", form))
-      {
-          yield return www.SendWebRequest();
+                if (www.isNetworkError || www.isHttpError)
+                {
+                    Debug.Log(www.error);
+                }
+                else
+                {
+                    Debug.Log("Sorgu Sonucu:" + www.downloadHandler.text);
 
-          if (www.isNetworkError || www.isHttpError)
-          {
-              Debug.Log(www.error);
-          }
-          else
-          {
-              Debug.Log("Sorgu Sonucu:" + www.downloadHandler.text);
+                }
+            }
+        }
 
-          }
-      }
-
-  }
+    }
 
 
 }
